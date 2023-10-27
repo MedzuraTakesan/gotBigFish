@@ -36,14 +36,11 @@ export default {
   }),
   computed: {
     ...mapGetters('settings', ['getCase']),
-    cases() {
-      return this.getMarket?.cases
-    },
     caseName() {
       return this.$route.params?.case
     },
     rows() {
-      return Math.ceil(this.tableData?.length / this.perPage)
+      return this.tableData?.length
     },
     medianTryValue() {
       const spendToTry = this.getCase?.amountOfTrySpentOnCases || [1]
