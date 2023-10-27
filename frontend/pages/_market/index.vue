@@ -14,8 +14,8 @@
             <p>Открытий кейса: {{ item.data.numberOfOpenCases}}</p>
             <p>Удачных кейсов: {{ item.data.goodCases}}</p>
             <p>Не удачных кейсов: {{ item.data.badCases}}</p>
-            <p>Выпало предметов на: {{ item.data.amountOfMoneySpentOnCases}}</p>
-            <p>Потрачено на кейсы: {{ item.data.amountOfMoneyPaidFromCases}}</p>
+            <p>Выпало предметов на: {{ item.data.amountOfMoneyPaidFromCases}}</p>
+            <p>Потрачено на кейсы: {{ item.data.amountOfMoneySpentOnCases}}</p>
             <b-button variant="outline-danger" @click="$router.push(getLink(item.key))">
               Подробнее
             </b-button>
