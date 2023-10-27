@@ -8,7 +8,7 @@
         <p>Открытий кейса: {{ getCase.numberOfOpenCases}}</p>
         <p>Удачных кейсов: {{ getCase.goodCases}}</p>
         <p>Не удачных кейсов: {{ getCase.badCases}}</p>
-        <p>Выпало предметов на: {{ getCase.amountOfMoneyPaidFromCases}}</p>
+        <p>Выпало предметов на: {{ parseInt(getCase.amountOfMoneyPaidFromCases)}}</p>
         <p>Потрачено на кейсы: {{ getCase.amountOfMoneySpentOnCases}}</p>
         <p>Кейсов давших х2: {{ getCase.X_2}}</p>
         <p>Кейсов давших х5: {{ getCase.X_5}}</p>

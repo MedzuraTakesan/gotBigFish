@@ -1,5 +1,12 @@
 <template>
   <b-container>
+    <b-row v-if="getMarket">
+      <p>Открытий кейса: {{ getMarket.numberOfOpenCases}}</p>
+      <p>Удачных кейсов: {{ getMarket.goodCases}}</p>
+      <p>Не удачных кейсов: {{ getMarket.badCases}}</p>
+      <p>Выпало предметов на: {{ parseInt(getMarket.amountOfMoneyPaidFromCases)}}</p>
+      <p>Потрачено на кейсы: {{ getMarket.amountOfMoneySpentOnCases}}</p>
+    </b-row>
     <b-row>
       <b-col
         v-for="item in cases"
@@ -14,7 +21,7 @@
             <p>Открытий кейса: {{ item.data.numberOfOpenCases}}</p>
             <p>Удачных кейсов: {{ item.data.goodCases}}</p>
             <p>Не удачных кейсов: {{ item.data.badCases}}</p>
-            <p>Выпало предметов на: {{ item.data.amountOfMoneyPaidFromCases}}</p>
+            <p>Выпало предметов на: {{ parseInt(item.data.amountOfMoneyPaidFromCases)}}</p>
             <p>Потрачено на кейсы: {{ item.data.amountOfMoneySpentOnCases}}</p>
             <b-button variant="outline-danger" @click="$router.push(getLink(item.key))">
               Подробнее
