@@ -4,7 +4,7 @@
       <b-col
         v-for="item in cases"
         :key="item.key"
-        cols="4"
+        :cols="cols"
       >
         <b-card>
           <b-card-header>
@@ -35,6 +35,11 @@ export default {
     ...mapGetters('settings', ['getMarket']),
     cases() {
       return this.getMarket?.cases
+    },
+    cols() {
+      const isMobile = window.innerWidth < 728
+
+      return isMobile ? 12 : 4
     }
   },
   created() {

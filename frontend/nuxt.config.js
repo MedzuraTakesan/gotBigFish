@@ -38,15 +38,9 @@ export default {
 
   proxy: {
     '/api': {
-      target: "http://localhost:3006",
+      target: "http://45.132.50.213:3006",
       pathRewrite: {
         '^/api' : ""
-      },
-    },
-    '/images': {
-      target: "https://render.albiononline.com/v1/item",
-      pathRewrite: {
-        '^/images' : ""
       },
     },
   },
