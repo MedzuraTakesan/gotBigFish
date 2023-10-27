@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { cloneDeep } = require('lodash')
 const { getAnalyticStatistic, getAnatyticsData } = require("./helpers/analytics");
 const { PROPERTIES, SUM_PROPERTIES, TRANSLATE_PROPERTIES } = require("./helpers/consts");
 const myCsGoShop = require('./markets/myCsGoShop')
@@ -159,7 +160,8 @@ const getObjectWithoutIgnoreFields = (object) => {
 
 const _getMarketData = (req, isIgnoreFieldsEnabled = false) => {
     const market = req?.query?.market || Object.keys(markets_data)[0];
-    const marketData = isIgnoreFieldsEnabled ? getObjectWithoutIgnoreFields(markets_data[market]) : markets_data[market]
+    const clonedMarket = cloneDeep(markets_data[market])
+    const marketData = isIgnoreFieldsEnabled ? getObjectWithoutIgnoreFields(clonedMarket) : clonedMarket
     if (isIgnoreFieldsEnabled) {
         Object.keys(marketData[PROPERTIES.CASES]).forEach((key) => {
             marketData[PROPERTIES.CASES][key] = getObjectWithoutIgnoreFields(marketData[PROPERTIES.CASES][key])
