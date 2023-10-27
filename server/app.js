@@ -153,7 +153,7 @@ const _getMarketData = (req, isIgnoreFieldsEnabled = false) => {
     if (isIgnoreFieldsEnabled) {
         ignoreFields.forEach((field) => {
             delete marketData[field]
-            marketData[PROPERTIES.CASES].forEach((caseName) => {
+            Object.keys(marketData[PROPERTIES.CASES]).forEach((caseName) => {
                 delete marketData[PROPERTIES.CASES][caseName][field]
             })
         })
