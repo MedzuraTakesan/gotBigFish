@@ -144,18 +144,25 @@ setInterval(() => {
 
 const ignoreFields = [PROPERTIES.AMOUNT_OF_MONEY_SPENT_TO_TRY_CASES, PROPERTIES.AMOUNT_OF_TRY_SPENT_CASES]
 
+const getObjectWithoutIgnoreFields = (object) => {
+    return Object.keys(object).reduce((obj, field) => {
+        if (ignoreFields.includes(field)) {
+            return obj
+        }
+
+        obj[field] = object[field]
+
+        return obj
+    }, {})
+}
+
 
 const _getMarketData = (req, isIgnoreFieldsEnabled = false) => {
     const market = req?.query?.market || Object.keys(markets_data)[0];
-    const marketData = {
-        ...markets_data[market]
-    }
+    const marketData = isIgnoreFieldsEnabled ? getObjectWithoutIgnoreFields(markets_data[market]) : markets_data[market]
     if (isIgnoreFieldsEnabled) {
-        ignoreFields.forEach((field) => {
-            delete marketData[field]
-            Object.keys(marketData[PROPERTIES.CASES]).forEach((caseName) => {
-                delete marketData[PROPERTIES.CASES][caseName][field]
-            })
+        Object.keys(marketData[PROPERTIES.CASES]).forEach((key) => {
+            marketData[PROPERTIES.CASES][key] = getObjectWithoutIgnoreFields(marketData[PROPERTIES.CASES][key])
         })
     }
     return {
