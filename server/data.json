@@ -1,13 +1,13 @@
 {
  "topskin.cc": {
-  "numberOfOpenCases": 4394,
-  "amountOfMoneySpentOnCases": 479135.26999999996,
-  "amountOfMoneyPaidFromCases": 484176.26799999806,
+  "numberOfOpenCases": 4420,
+  "amountOfMoneySpentOnCases": 479549.26999999996,
+  "amountOfMoneyPaidFromCases": 484713.0779999981,
   "X_10": 25,
-  "X_5": 27,
-  "X_2": 159,
-  "goodCases": 670,
-  "badCases": 1527,
+  "X_5": 28,
+  "X_2": 161,
+  "goodCases": 675,
+  "badCases": 1535,
   "amountOfTrySpentOnCases": [
    1,
    3,
@@ -679,7 +679,12 @@
    4,
    0,
    5,
-   0
+   1,
+   5,
+   1,
+   0,
+   0,
+   1
   ],
   "amountOfMoneySpentToTryCases": [
    4,
@@ -1352,17 +1357,22 @@
    58,
    0,
    72,
-   0
+   24,
+   64,
+   6,
+   0,
+   0,
+   31
   ],
   "cases": {
    "counterstrike16": {
-    "amountOfMoneySpentOnCases": 305,
-    "amountOfMoneyPaidFromCases": 309.79999999999984,
+    "amountOfMoneySpentOnCases": 310,
+    "amountOfMoneyPaidFromCases": 310.78999999999985,
     "X_10": 0,
     "X_5": 1,
     "X_2": 9,
     "goodCases": 25,
-    "badCases": 36,
+    "badCases": 37,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -1389,7 +1399,7 @@
      0,
      2,
      0,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      4,
@@ -1417,9 +1427,9 @@
      0,
      8,
      0,
-     0
+     4
     ],
-    "numberOfOpenCases": 61
+    "numberOfOpenCases": 62
    },
    "witch23": {
     "amountOfMoneySpentOnCases": 13930,
@@ -1678,13 +1688,13 @@
     "numberOfOpenCases": 61
    },
    "steam20": {
-    "amountOfMoneySpentOnCases": 2856,
-    "amountOfMoneyPaidFromCases": 2923.119999999999,
+    "amountOfMoneySpentOnCases": 3024,
+    "amountOfMoneyPaidFromCases": 3328.8299999999986,
     "X_10": 0,
-    "X_5": 1,
-    "X_2": 12,
-    "goodCases": 36,
-    "badCases": 83,
+    "X_5": 2,
+    "X_2": 14,
+    "goodCases": 41,
+    "badCases": 85,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -1722,7 +1732,12 @@
      0,
      2,
      0,
-     2
+     2,
+     1,
+     1,
+     0,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -1761,9 +1776,14 @@
      0,
      17,
      0,
-     15
+     15,
+     6,
+     6,
+     0,
+     0,
+     0
     ],
-    "numberOfOpenCases": 119
+    "numberOfOpenCases": 126
    },
    "ak47": {
     "amountOfMoneySpentOnCases": 1914,
@@ -2254,13 +2274,13 @@
     "numberOfOpenCases": 43
    },
    "pumpkincase": {
-    "amountOfMoneySpentOnCases": 12495,
-    "amountOfMoneyPaidFromCases": 12890.030000000015,
+    "amountOfMoneySpentOnCases": 12691,
+    "amountOfMoneyPaidFromCases": 13006.390000000018,
     "X_10": 1,
     "X_5": 8,
     "X_2": 22,
     "goodCases": 72,
-    "badCases": 183,
+    "badCases": 187,
     "amountOfTrySpentOnCases": [
      5,
      7,
@@ -2334,7 +2354,7 @@
      8,
      4,
      0,
-     0
+     4
     ],
     "amountOfMoneySpentToTryCases": [
      115,
@@ -2409,9 +2429,9 @@
      198,
      119,
      0,
-     0
+     78
     ],
-    "numberOfOpenCases": 255
+    "numberOfOpenCases": 259
    },
    "Leaffall": {
     "amountOfMoneySpentOnCases": 2232,
@@ -4056,24 +4076,24 @@
     "numberOfOpenCases": 15
    },
    "blackset": {
-    "amountOfMoneySpentOnCases": 450,
-    "amountOfMoneyPaidFromCases": 363.15999999999997,
+    "amountOfMoneySpentOnCases": 495,
+    "amountOfMoneyPaidFromCases": 376.90999999999997,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 2,
-    "badCases": 8,
+    "badCases": 9,
     "amountOfTrySpentOnCases": [
      7,
      1,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      139,
      1,
-     0
+     31
     ],
-    "numberOfOpenCases": 10
+    "numberOfOpenCases": 11
    },
    "chroma2": {
     "amountOfMoneySpentOnCases": 59,
@@ -4490,14 +4510,14 @@
   }
  },
  "mycsgo.shop": {
-  "numberOfOpenCases": 32926,
-  "amountOfMoneySpentOnCases": 2762694.0200000433,
-  "amountOfMoneyPaidFromCases": 2977918.7799998913,
-  "X_10": 182,
-  "X_5": 243,
-  "X_2": 2096,
-  "goodCases": 7142,
-  "badCases": 9321,
+  "numberOfOpenCases": 33248,
+  "amountOfMoneySpentOnCases": 2791617.1900000433,
+  "amountOfMoneyPaidFromCases": 3002462.7099998877,
+  "X_10": 183,
+  "X_5": 246,
+  "X_2": 2113,
+  "goodCases": 7192,
+  "badCases": 9432,
   "amountOfTrySpentOnCases": [
    2,
    1,
@@ -11641,7 +11661,57 @@
    1,
    1,
    0,
-   0
+   0,
+   3,
+   0,
+   0,
+   2,
+   1,
+   2,
+   0,
+   1,
+   0,
+   2,
+   16,
+   1,
+   0,
+   0,
+   0,
+   2,
+   1,
+   0,
+   9,
+   1,
+   7,
+   0,
+   0,
+   4,
+   1,
+   0,
+   2,
+   0,
+   2,
+   2,
+   11,
+   1,
+   7,
+   0,
+   0,
+   0,
+   1,
+   0,
+   2,
+   0,
+   1,
+   1,
+   5,
+   2,
+   9,
+   1,
+   5,
+   4,
+   1,
+   1
   ],
   "amountOfMoneySpentToTryCases": [
    37,
@@ -18786,6 +18856,56 @@
    11,
    108,
    0,
+   0,
+   335,
+   0,
+   0,
+   890,
+   98,
+   152,
+   0,
+   82,
+   0,
+   532,
+   3200,
+   8,
+   0,
+   0,
+   0,
+   122,
+   733,
+   0,
+   604,
+   105,
+   475,
+   0,
+   0,
+   98,
+   0,
+   0,
+   296,
+   0,
+   110,
+   79,
+   1175,
+   20,
+   767,
+   0,
+   0,
+   0,
+   60,
+   0,
+   0,
+   0,
+   20,
+   4,
+   49,
+   19,
+   1651,
+   48,
+   193,
+   580,
+   4,
    0
   ],
   "cases": {
@@ -18914,13 +19034,13 @@
     "numberOfOpenCases": 250
    },
    "bitcoin5": {
-    "amountOfMoneySpentOnCases": 52909,
-    "amountOfMoneyPaidFromCases": 49355.29999999997,
+    "amountOfMoneySpentOnCases": 53583,
+    "amountOfMoneyPaidFromCases": 50225.91999999997,
     "X_10": 1,
     "X_5": 0,
-    "X_2": 9,
-    "goodCases": 52,
-    "badCases": 105,
+    "X_2": 10,
+    "goodCases": 53,
+    "badCases": 106,
     "amountOfTrySpentOnCases": [
      1,
      3,
@@ -18974,6 +19094,7 @@
      6,
      8,
      5,
+     1,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -19029,9 +19150,10 @@
      1241,
      1167,
      1275,
-     266
+     266,
+     200
     ],
-    "numberOfOpenCases": 157
+    "numberOfOpenCases": 159
    },
    "AtomicHeart": {
     "amountOfMoneySpentOnCases": 25312,
@@ -19106,13 +19228,13 @@
     "numberOfOpenCases": 113
    },
    "BubbleGum": {
-    "amountOfMoneySpentOnCases": 10526,
-    "amountOfMoneyPaidFromCases": 11890.700000000028,
+    "amountOfMoneySpentOnCases": 11172,
+    "amountOfMoneyPaidFromCases": 12357.820000000034,
     "X_10": 1,
     "X_5": 0,
     "X_2": 39,
-    "goodCases": 83,
-    "badCases": 194,
+    "goodCases": 84,
+    "badCases": 210,
     "amountOfTrySpentOnCases": [
      3,
      1,
@@ -19197,7 +19319,8 @@
      0,
      0,
      1,
-     3
+     6,
+     13
     ],
     "amountOfMoneySpentToTryCases": [
      39,
@@ -19283,9 +19406,10 @@
      0,
      0,
      0,
-     9
+     35,
+     165
     ],
-    "numberOfOpenCases": 277
+    "numberOfOpenCases": 294
    },
    "Cake": {
     "amountOfMoneySpentOnCases": 3173.9499999999857,
@@ -19818,13 +19942,13 @@
     "numberOfOpenCases": 257
    },
    "Witch": {
-    "amountOfMoneySpentOnCases": 13356,
-    "amountOfMoneyPaidFromCases": 26391.379999999917,
-    "X_10": 6,
+    "amountOfMoneySpentOnCases": 13491,
+    "amountOfMoneyPaidFromCases": 27149.139999999916,
+    "X_10": 7,
     "X_5": 55,
-    "X_2": 363,
-    "goodCases": 953,
-    "badCases": 531,
+    "X_2": 366,
+    "goodCases": 963,
+    "badCases": 536,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -20779,7 +20903,17 @@
      2,
      0,
      0,
-     0
+     0,
+     0,
+     0,
+     1,
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -21735,9 +21869,19 @@
      0,
      0,
      0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 1484
+    "numberOfOpenCases": 1499
    },
    "CS2": {
     "amountOfMoneySpentOnCases": 36465,
@@ -22004,12 +22148,12 @@
     "numberOfOpenCases": 429
    },
    "contract": {
-    "amountOfMoneySpentOnCases": 77472.71999999991,
-    "amountOfMoneyPaidFromCases": 69809.2600000001,
+    "amountOfMoneySpentOnCases": 78509.13999999991,
+    "amountOfMoneyPaidFromCases": 71418.2500000001,
     "X_10": 0,
     "X_5": 0,
     "X_2": 17,
-    "goodCases": 53,
+    "goodCases": 54,
     "badCases": 238,
     "amountOfTrySpentOnCases": [
      1,
@@ -22065,7 +22209,8 @@
      6,
      1,
      0,
-     1
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      55,
@@ -22121,9 +22266,10 @@
      294,
      24,
      0,
-     21
+     21,
+     0
     ],
-    "numberOfOpenCases": 291
+    "numberOfOpenCases": 292
    },
    "kroko3abra": {
     "amountOfMoneySpentOnCases": 15105,
@@ -22238,13 +22384,13 @@
     "numberOfOpenCases": 159
    },
    "Carrot": {
-    "amountOfMoneySpentOnCases": 2166,
-    "amountOfMoneyPaidFromCases": 3868.220000000003,
+    "amountOfMoneySpentOnCases": 2194.5,
+    "amountOfMoneyPaidFromCases": 3906.1500000000033,
     "X_10": 2,
     "X_5": 5,
-    "X_2": 50,
-    "goodCases": 89,
-    "badCases": 63,
+    "X_2": 51,
+    "goodCases": 90,
+    "badCases": 64,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -22335,6 +22481,7 @@
      0,
      0,
      0,
+     1,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -22427,18 +22574,19 @@
      0,
      0,
      0,
+     6,
      6
     ],
-    "numberOfOpenCases": 152
+    "numberOfOpenCases": 154
    },
    "Death": {
-    "amountOfMoneySpentOnCases": 153429,
-    "amountOfMoneyPaidFromCases": 125059.93000000005,
+    "amountOfMoneySpentOnCases": 153827,
+    "amountOfMoneyPaidFromCases": 125160.62000000005,
     "X_10": 0,
     "X_5": 3,
     "X_2": 43,
     "goodCases": 192,
-    "badCases": 579,
+    "badCases": 581,
     "amountOfTrySpentOnCases": [
      3,
      10,
@@ -22632,7 +22780,7 @@
      0,
      5,
      0,
-     1
+     3
     ],
     "amountOfMoneySpentToTryCases": [
      404,
@@ -22827,17 +22975,17 @@
      0,
      554,
      0,
-     146
+     442
     ],
-    "numberOfOpenCases": 771
+    "numberOfOpenCases": 773
    },
    "Madness": {
-    "amountOfMoneySpentOnCases": 45837,
-    "amountOfMoneyPaidFromCases": 39306.68000000008,
+    "amountOfMoneySpentOnCases": 46035,
+    "amountOfMoneyPaidFromCases": 39703.90000000008,
     "X_10": 0,
     "X_5": 3,
-    "X_2": 29,
-    "goodCases": 132,
+    "X_2": 30,
+    "goodCases": 134,
     "badCases": 331,
     "amountOfTrySpentOnCases": [
      0,
@@ -22972,7 +23120,9 @@
      2,
      2,
      6,
-     5
+     5,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -23107,18 +23257,20 @@
      154,
      89,
      186,
-     335
+     335,
+     0,
+     0
     ],
-    "numberOfOpenCases": 463
+    "numberOfOpenCases": 465
    },
    "Neon": {
-    "amountOfMoneySpentOnCases": 12032,
-    "amountOfMoneyPaidFromCases": 13017.750000000013,
+    "amountOfMoneySpentOnCases": 12128,
+    "amountOfMoneyPaidFromCases": 13092.630000000014,
     "X_10": 0,
     "X_5": 1,
     "X_2": 76,
-    "goodCases": 152,
-    "badCases": 224,
+    "goodCases": 153,
+    "badCases": 226,
     "amountOfTrySpentOnCases": [
      8,
      0,
@@ -23272,7 +23424,8 @@
      2,
      1,
      0,
-     3
+     3,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      143,
@@ -23427,9 +23580,10 @@
      31,
      22,
      0,
-     40
+     40,
+     24
     ],
-    "numberOfOpenCases": 376
+    "numberOfOpenCases": 379
    },
    "boomboom": {
     "amountOfMoneySpentOnCases": 8360,
@@ -23800,13 +23954,13 @@
     "numberOfOpenCases": 161
    },
    "Moon": {
-    "amountOfMoneySpentOnCases": 15781,
-    "amountOfMoneyPaidFromCases": 16028.220000000003,
+    "amountOfMoneySpentOnCases": 15867,
+    "amountOfMoneyPaidFromCases": 16068.050000000003,
     "X_10": 0,
     "X_5": 5,
     "X_2": 49,
     "goodCases": 99,
-    "badCases": 268,
+    "badCases": 270,
     "amountOfTrySpentOnCases": [
      6,
      5,
@@ -23907,7 +24061,7 @@
      0,
      8,
      2,
-     3
+     5
     ],
     "amountOfMoneySpentToTryCases": [
      74,
@@ -24009,18 +24163,18 @@
      0,
      144,
      36,
-     28
+     73
     ],
-    "numberOfOpenCases": 367
+    "numberOfOpenCases": 369
    },
    "JACKPOT": {
-    "amountOfMoneySpentOnCases": 10815,
-    "amountOfMoneyPaidFromCases": 13213.429999999982,
+    "amountOfMoneySpentOnCases": 10899,
+    "amountOfMoneyPaidFromCases": 13315.23999999998,
     "X_10": 0,
     "X_5": 7,
-    "X_2": 47,
-    "goodCases": 298,
-    "badCases": 217,
+    "X_2": 48,
+    "goodCases": 301,
+    "badCases": 218,
     "amountOfTrySpentOnCases": [
      2,
      4,
@@ -24320,7 +24474,10 @@
      0,
      1,
      0,
-     2
+     2,
+     0,
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      15,
@@ -24621,9 +24778,12 @@
      0,
      7,
      0,
-     13
+     13,
+     0,
+     6,
+     0
     ],
-    "numberOfOpenCases": 515
+    "numberOfOpenCases": 519
    },
    "bomj": {
     "amountOfMoneySpentOnCases": 2156,
@@ -24808,13 +24968,13 @@
     "numberOfOpenCases": 83
    },
    "iPhone15": {
-    "amountOfMoneySpentOnCases": 28382,
-    "amountOfMoneyPaidFromCases": 25249.649999999994,
+    "amountOfMoneySpentOnCases": 30233,
+    "amountOfMoneyPaidFromCases": 26081.899999999994,
     "X_10": 0,
     "X_5": 1,
     "X_2": 3,
     "goodCases": 13,
-    "badCases": 33,
+    "badCases": 36,
     "amountOfTrySpentOnCases": [
      0,
      12,
@@ -24829,7 +24989,7 @@
      3,
      0,
      7,
-     0
+     3
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -24845,9 +25005,9 @@
      1140,
      0,
      2253,
-     0
+     1017
     ],
-    "numberOfOpenCases": 46
+    "numberOfOpenCases": 49
    },
    "Vulcan": {
     "amountOfMoneySpentOnCases": 20900,
@@ -25014,13 +25174,13 @@
     "numberOfOpenCases": 111
    },
    "Zombie": {
-    "amountOfMoneySpentOnCases": 28025,
-    "amountOfMoneyPaidFromCases": 25941.909999999974,
+    "amountOfMoneySpentOnCases": 28438,
+    "amountOfMoneyPaidFromCases": 26248.05999999997,
     "X_10": 1,
     "X_5": 8,
     "X_2": 25,
-    "goodCases": 103,
-    "badCases": 372,
+    "goodCases": 104,
+    "badCases": 378,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -25125,6 +25285,7 @@
      2,
      1,
      5,
+     6,
      3
     ],
     "amountOfMoneySpentToTryCases": [
@@ -25231,9 +25392,10 @@
      45,
      18,
      165,
-     71
+     175,
+     44
     ],
-    "numberOfOpenCases": 475
+    "numberOfOpenCases": 482
    },
    "OrangeCollection": {
     "amountOfMoneySpentOnCases": 966,
@@ -25345,11 +25507,11 @@
    },
    "GoldNova": {
     "amountOfMoneySpentOnCases": 0,
-    "amountOfMoneyPaidFromCases": 2095.760000000001,
+    "amountOfMoneyPaidFromCases": 2127.4600000000014,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
-    "goodCases": 124,
+    "goodCases": 126,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
      0,
@@ -25476,6 +25638,8 @@
      0,
      0,
      0,
+     0,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -25603,18 +25767,20 @@
      0,
      0,
      0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 124
+    "numberOfOpenCases": 126
    },
    "Blackhole": {
-    "amountOfMoneySpentOnCases": 25688,
-    "amountOfMoneyPaidFromCases": 30053.16,
+    "amountOfMoneySpentOnCases": 25764,
+    "amountOfMoneyPaidFromCases": 30066.71,
     "X_10": 0,
     "X_5": 2,
     "X_2": 42,
     "goodCases": 186,
-    "badCases": 230,
+    "badCases": 231,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -25802,7 +25968,7 @@
      0,
      1,
      0,
-     5
+     6
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -25991,9 +26157,9 @@
      0,
      16,
      0,
-     250
+     312
     ],
-    "numberOfOpenCases": 416
+    "numberOfOpenCases": 417
    },
    "MG": {
     "amountOfMoneySpentOnCases": 0,
@@ -26402,13 +26568,13 @@
     "numberOfOpenCases": 184
    },
    "Blackberry": {
-    "amountOfMoneySpentOnCases": 41451,
-    "amountOfMoneyPaidFromCases": 37768.49999999994,
+    "amountOfMoneySpentOnCases": 42066,
+    "amountOfMoneyPaidFromCases": 38349.81999999994,
     "X_10": 0,
     "X_5": 3,
-    "X_2": 18,
-    "goodCases": 108,
-    "badCases": 229,
+    "X_2": 19,
+    "goodCases": 110,
+    "badCases": 232,
     "amountOfTrySpentOnCases": [
      0,
      7,
@@ -26517,6 +26683,8 @@
      0,
      0,
      0,
+     2,
+     1,
      2,
      0
     ],
@@ -26629,18 +26797,20 @@
      0,
      0,
      70,
+     47,
+     120,
      0
     ],
-    "numberOfOpenCases": 337
+    "numberOfOpenCases": 342
    },
    "Fade": {
-    "amountOfMoneySpentOnCases": 41800,
-    "amountOfMoneyPaidFromCases": 40431.38,
+    "amountOfMoneySpentOnCases": 43700,
+    "amountOfMoneyPaidFromCases": 43683.34999999999,
     "X_10": 0,
-    "X_5": 0,
+    "X_5": 1,
     "X_2": 15,
-    "goodCases": 29,
-    "badCases": 59,
+    "goodCases": 30,
+    "badCases": 62,
     "amountOfTrySpentOnCases": [
      3,
      4,
@@ -26671,7 +26841,8 @@
      3,
      1,
      0,
-     1
+     4,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      854,
@@ -26703,18 +26874,19 @@
      303,
      349,
      0,
-     176
+     926,
+     0
     ],
-    "numberOfOpenCases": 88
+    "numberOfOpenCases": 92
    },
    "Sweets": {
-    "amountOfMoneySpentOnCases": 24940,
-    "amountOfMoneyPaidFromCases": 30650.460000000043,
+    "amountOfMoneySpentOnCases": 25085,
+    "amountOfMoneyPaidFromCases": 30732.670000000046,
     "X_10": 3,
     "X_5": 3,
     "X_2": 142,
     "goodCases": 312,
-    "badCases": 548,
+    "badCases": 553,
     "amountOfTrySpentOnCases": [
      3,
      4,
@@ -27028,7 +27200,7 @@
      4,
      1,
      4,
-     0
+     5
     ],
     "amountOfMoneySpentToTryCases": [
      48,
@@ -27343,9 +27515,9 @@
      60,
      11,
      51,
-     0
+     61
     ],
-    "numberOfOpenCases": 860
+    "numberOfOpenCases": 865
    },
    "Samurai": {
     "amountOfMoneySpentOnCases": 23508,
@@ -27368,13 +27540,13 @@
     "numberOfOpenCases": 9
    },
    "BackToSchool": {
-    "amountOfMoneySpentOnCases": 26752,
-    "amountOfMoneyPaidFromCases": 19594.629999999986,
+    "amountOfMoneySpentOnCases": 27664,
+    "amountOfMoneyPaidFromCases": 20134.209999999985,
     "X_10": 0,
     "X_5": 0,
     "X_2": 9,
-    "goodCases": 49,
-    "badCases": 127,
+    "goodCases": 50,
+    "badCases": 132,
     "amountOfTrySpentOnCases": [
      3,
      0,
@@ -27425,7 +27597,8 @@
      16,
      5,
      4,
-     1
+     4,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      280,
@@ -27477,18 +27650,19 @@
      1288,
      316,
      323,
-     108
+     388,
+     118
     ],
-    "numberOfOpenCases": 176
+    "numberOfOpenCases": 182
    },
    "dumbazz": {
-    "amountOfMoneySpentOnCases": 10070,
-    "amountOfMoneyPaidFromCases": 8336.83,
+    "amountOfMoneySpentOnCases": 10260,
+    "amountOfMoneyPaidFromCases": 8421.98,
     "X_10": 0,
     "X_5": 0,
     "X_2": 2,
     "goodCases": 11,
-    "badCases": 42,
+    "badCases": 43,
     "amountOfTrySpentOnCases": [
      8,
      10,
@@ -27501,7 +27675,7 @@
      0,
      0,
      3,
-     7
+     8
     ],
     "amountOfMoneySpentToTryCases": [
      605,
@@ -27515,17 +27689,17 @@
      0,
      0,
      282,
-     578
+     682
     ],
-    "numberOfOpenCases": 53
+    "numberOfOpenCases": 54
    },
    "BlueCollection": {
-    "amountOfMoneySpentOnCases": 605,
-    "amountOfMoneyPaidFromCases": 912.0099999999998,
+    "amountOfMoneySpentOnCases": 616,
+    "amountOfMoneyPaidFromCases": 953.6699999999997,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 10,
-    "goodCases": 43,
+    "X_2": 11,
+    "goodCases": 44,
     "badCases": 12,
     "amountOfTrySpentOnCases": [
      2,
@@ -27570,6 +27744,7 @@
      0,
      0,
      1,
+     0,
      0,
      0
     ],
@@ -27617,9 +27792,10 @@
      0,
      2,
      0,
+     0,
      0
     ],
-    "numberOfOpenCases": 55
+    "numberOfOpenCases": 56
    },
    "Porsche911": {
     "amountOfMoneySpentOnCases": 27712,
@@ -27690,12 +27866,12 @@
     "numberOfOpenCases": 45
    },
    "Chromatic": {
-    "amountOfMoneySpentOnCases": 703.9500000000007,
-    "amountOfMoneyPaidFromCases": 5244.310000000004,
+    "amountOfMoneySpentOnCases": 728.6500000000008,
+    "amountOfMoneyPaidFromCases": 5335.570000000004,
     "X_10": 6,
     "X_5": 6,
-    "X_2": 45,
-    "goodCases": 57,
+    "X_2": 47,
+    "goodCases": 59,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
      0,
@@ -27755,6 +27931,8 @@
      0,
      0,
      0,
+     0,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -27815,18 +27993,20 @@
      0,
      0,
      0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 57
+    "numberOfOpenCases": 59
    },
    "Pumpkin": {
-    "amountOfMoneySpentOnCases": 69930,
-    "amountOfMoneyPaidFromCases": 52866.759999999995,
+    "amountOfMoneySpentOnCases": 70929,
+    "amountOfMoneyPaidFromCases": 53057.67,
     "X_10": 0,
     "X_5": 0,
     "X_2": 3,
     "goodCases": 16,
-    "badCases": 54,
+    "badCases": 55,
     "amountOfTrySpentOnCases": [
      6,
      1,
@@ -27844,7 +28024,7 @@
      4,
      4,
      0,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      3186,
@@ -27863,18 +28043,18 @@
      2575,
      2129,
      0,
-     0
+     808
     ],
-    "numberOfOpenCases": 70
+    "numberOfOpenCases": 71
    },
    "fenya": {
-    "amountOfMoneySpentOnCases": 23700,
-    "amountOfMoneyPaidFromCases": 22716.36999999999,
+    "amountOfMoneySpentOnCases": 24411,
+    "amountOfMoneyPaidFromCases": 23358.96999999999,
     "X_10": 0,
     "X_5": 3,
     "X_2": 6,
-    "goodCases": 30,
-    "badCases": 70,
+    "goodCases": 31,
+    "badCases": 72,
     "amountOfTrySpentOnCases": [
      3,
      0,
@@ -27906,7 +28086,8 @@
      0,
      2,
      5,
-     6
+     7,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      314,
@@ -27939,9 +28120,10 @@
      0,
      210,
      669,
-     776
+     860,
+     179
     ],
-    "numberOfOpenCases": 100
+    "numberOfOpenCases": 103
    },
    "allin_glock": {
     "amountOfMoneySpentOnCases": 3591,
@@ -27990,13 +28172,13 @@
     "numberOfOpenCases": 14
    },
    "SweetDreams": {
-    "amountOfMoneySpentOnCases": 20292,
-    "amountOfMoneyPaidFromCases": 20241.279999999995,
+    "amountOfMoneySpentOnCases": 20463,
+    "amountOfMoneyPaidFromCases": 20313.099999999995,
     "X_10": 0,
     "X_5": 3,
     "X_2": 43,
     "goodCases": 132,
-    "badCases": 224,
+    "badCases": 227,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -28130,7 +28312,7 @@
      2,
      1,
      1,
-     0
+     3
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -28265,25 +28447,26 @@
      55,
      37,
      36,
-     0
+     97
     ],
-    "numberOfOpenCases": 356
+    "numberOfOpenCases": 359
    },
    "Monsters": {
-    "amountOfMoneySpentOnCases": 390,
-    "amountOfMoneyPaidFromCases": 390.22999999999996,
+    "amountOfMoneySpentOnCases": 600,
+    "amountOfMoneyPaidFromCases": 512.9499999999999,
     "X_10": 0,
     "X_5": 0,
     "X_2": 1,
-    "goodCases": 5,
-    "badCases": 8,
+    "goodCases": 6,
+    "badCases": 14,
     "amountOfTrySpentOnCases": [
      1,
      0,
      4,
      2,
      0,
-     1
+     2,
+     5
     ],
     "amountOfMoneySpentToTryCases": [
      11,
@@ -28291,9 +28474,10 @@
      34,
      15,
      0,
-     4
+     12,
+     78
     ],
-    "numberOfOpenCases": 13
+    "numberOfOpenCases": 20
    },
    "sah4r": {
     "amountOfMoneySpentOnCases": 25080,
@@ -28782,13 +28966,13 @@
     "numberOfOpenCases": 251
    },
    "500kk": {
-    "amountOfMoneySpentOnCases": 22800,
-    "amountOfMoneyPaidFromCases": 16410.480000000003,
+    "amountOfMoneySpentOnCases": 24700,
+    "amountOfMoneyPaidFromCases": 17397.26,
     "X_10": 0,
     "X_5": 0,
     "X_2": 1,
     "goodCases": 7,
-    "badCases": 41,
+    "badCases": 45,
     "amountOfTrySpentOnCases": [
      2,
      0,
@@ -28797,7 +28981,7 @@
      2,
      21,
      0,
-     1
+     5
     ],
     "amountOfMoneySpentToTryCases": [
      718,
@@ -28807,31 +28991,31 @@
      659,
      4876,
      0,
-     359
+     1270
     ],
-    "numberOfOpenCases": 48
+    "numberOfOpenCases": 52
    },
    "allin_usp": {
-    "amountOfMoneySpentOnCases": 11960,
-    "amountOfMoneyPaidFromCases": 15489.969999999968,
+    "amountOfMoneySpentOnCases": 12064,
+    "amountOfMoneyPaidFromCases": 15521.689999999968,
     "X_10": 3,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 3,
-    "badCases": 112,
+    "badCases": 113,
     "amountOfTrySpentOnCases": [
      22,
      29,
      36,
-     25
+     26
     ],
     "amountOfMoneySpentToTryCases": [
      1584,
      2088,
      2592,
-     1800
+     1872
     ],
-    "numberOfOpenCases": 115
+    "numberOfOpenCases": 116
    },
    "Bearbrick": {
     "amountOfMoneySpentOnCases": 28503,
@@ -28886,13 +29070,13 @@
     "numberOfOpenCases": 30
    },
    "Printstream": {
-    "amountOfMoneySpentOnCases": 7100,
-    "amountOfMoneyPaidFromCases": 4995.249999999998,
+    "amountOfMoneySpentOnCases": 8520,
+    "amountOfMoneyPaidFromCases": 6682.719999999997,
     "X_10": 0,
-    "X_5": 0,
+    "X_5": 1,
     "X_2": 2,
-    "goodCases": 18,
-    "badCases": 32,
+    "goodCases": 23,
+    "badCases": 37,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -28912,7 +29096,12 @@
      3,
      0,
      1,
-     0
+     1,
+     2,
+     0,
+     1,
+     0,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -28933,9 +29122,14 @@
      280,
      0,
      121,
-     0
+     98,
+     152,
+     0,
+     82,
+     0,
+     103
     ],
-    "numberOfOpenCases": 50
+    "numberOfOpenCases": 60
    },
    "getfuckshow": {
     "amountOfMoneySpentOnCases": 6972,
@@ -30184,13 +30378,13 @@
     "numberOfOpenCases": 57
    },
    "TopG": {
-    "amountOfMoneySpentOnCases": 31777,
-    "amountOfMoneyPaidFromCases": 26239.600000000006,
+    "amountOfMoneySpentOnCases": 32516,
+    "amountOfMoneyPaidFromCases": 26667.410000000007,
     "X_10": 0,
     "X_5": 0,
     "X_2": 5,
     "goodCases": 11,
-    "badCases": 32,
+    "badCases": 33,
     "amountOfTrySpentOnCases": [
      1,
      0,
@@ -30203,7 +30397,7 @@
      1,
      3,
      12,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      551,
@@ -30217,9 +30411,9 @@
      484,
      646,
      4758,
-     0
+     311
     ],
-    "numberOfOpenCases": 43
+    "numberOfOpenCases": 44
    },
    "robbermask": {
     "amountOfMoneySpentOnCases": 1885,
@@ -30418,13 +30612,13 @@
     "numberOfOpenCases": 145
    },
    "MamaSwiggi": {
-    "amountOfMoneySpentOnCases": 15158,
-    "amountOfMoneyPaidFromCases": 12987.190000000008,
+    "amountOfMoneySpentOnCases": 15587,
+    "amountOfMoneyPaidFromCases": 13347.03000000001,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 10,
-    "goodCases": 28,
-    "badCases": 78,
+    "X_2": 11,
+    "goodCases": 29,
+    "badCases": 80,
     "amountOfTrySpentOnCases": [
      2,
      0,
@@ -30454,7 +30648,8 @@
      7,
      0,
      1,
-     3
+     5,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      216,
@@ -30485,9 +30680,10 @@
      413,
      0,
      108,
-     254
+     470,
+     0
     ],
-    "numberOfOpenCases": 106
+    "numberOfOpenCases": 109
    },
    "cyrex": {
     "amountOfMoneySpentOnCases": 259.3499999999999,
@@ -30812,12 +31008,12 @@
     "numberOfOpenCases": 232
    },
    "MK1": {
-    "amountOfMoneySpentOnCases": 35682,
-    "amountOfMoneyPaidFromCases": 29040.47999999998,
+    "amountOfMoneySpentOnCases": 35995,
+    "amountOfMoneyPaidFromCases": 29577.679999999982,
     "X_10": 0,
     "X_5": 2,
     "X_2": 4,
-    "goodCases": 24,
+    "goodCases": 25,
     "badCases": 90,
     "amountOfTrySpentOnCases": [
      3,
@@ -30844,7 +31040,8 @@
      5,
      6,
      1,
-     3
+     3,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      307,
@@ -30871,9 +31068,10 @@
      995,
      1070,
      187,
-     271
+     271,
+     0
     ],
-    "numberOfOpenCases": 114
+    "numberOfOpenCases": 115
    },
    "Seyka": {
     "amountOfMoneySpentOnCases": 13348,
@@ -31298,12 +31496,12 @@
     "numberOfOpenCases": 101
    },
    "Industrial": {
-    "amountOfMoneySpentOnCases": 684,
-    "amountOfMoneyPaidFromCases": 3179.3199999999997,
+    "amountOfMoneySpentOnCases": 760,
+    "amountOfMoneyPaidFromCases": 3624.1299999999997,
     "X_10": 2,
-    "X_5": 0,
-    "X_2": 10,
-    "goodCases": 14,
+    "X_5": 1,
+    "X_2": 11,
+    "goodCases": 16,
     "badCases": 4,
     "amountOfTrySpentOnCases": [
      0,
@@ -31320,7 +31518,9 @@
      0,
      0,
      0,
-     1
+     1,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -31337,9 +31537,11 @@
      0,
      0,
      0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 18
+    "numberOfOpenCases": 20
    },
    "Dominic": {
     "amountOfMoneySpentOnCases": 3553,
@@ -32154,24 +32356,24 @@
     "numberOfOpenCases": 33
    },
    "Dantes": {
-    "amountOfMoneySpentOnCases": 7404,
-    "amountOfMoneyPaidFromCases": 4509.87,
+    "amountOfMoneySpentOnCases": 8021,
+    "amountOfMoneyPaidFromCases": 4620.33,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 2,
-    "badCases": 10,
+    "badCases": 11,
     "amountOfTrySpentOnCases": [
      0,
      2,
-     8
+     9
     ],
     "amountOfMoneySpentToTryCases": [
      0,
      508,
-     2822
+     3328
     ],
-    "numberOfOpenCases": 12
+    "numberOfOpenCases": 13
    },
    "BlackCollection": {
     "amountOfMoneySpentOnCases": 591,
@@ -32190,12 +32392,12 @@
     "numberOfOpenCases": 3
    },
    "OceanDrive": {
-    "amountOfMoneySpentOnCases": 3907.3500000000317,
-    "amountOfMoneyPaidFromCases": 10084.910000000007,
+    "amountOfMoneySpentOnCases": 3915.900000000032,
+    "amountOfMoneyPaidFromCases": 10114.940000000008,
     "X_10": 5,
     "X_5": 14,
-    "X_2": 217,
-    "goodCases": 457,
+    "X_2": 218,
+    "goodCases": 458,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
      0,
@@ -32655,6 +32857,7 @@
      0,
      0,
      0,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -33115,9 +33318,10 @@
      0,
      0,
      0,
+     0,
      0
     ],
-    "numberOfOpenCases": 457
+    "numberOfOpenCases": 458
    },
    "zoneR": {
     "amountOfMoneySpentOnCases": 25110,
@@ -33310,13 +33514,13 @@
     "numberOfOpenCases": 9
    },
    "Blood": {
-    "amountOfMoneySpentOnCases": 5452,
-    "amountOfMoneyPaidFromCases": 5467.330000000001,
+    "amountOfMoneySpentOnCases": 5781,
+    "amountOfMoneyPaidFromCases": 5630.060000000001,
     "X_10": 0,
     "X_5": 0,
     "X_2": 17,
     "goodCases": 30,
-    "badCases": 86,
+    "badCases": 93,
     "amountOfTrySpentOnCases": [
      3,
      2,
@@ -33348,7 +33552,7 @@
      2,
      1,
      3,
-     0
+     7
     ],
     "amountOfMoneySpentToTryCases": [
      91,
@@ -33381,9 +33585,9 @@
      37,
      28,
      72,
-     0
+     164
     ],
-    "numberOfOpenCases": 116
+    "numberOfOpenCases": 123
    },
    "hyperbeast": {
     "amountOfMoneySpentOnCases": 123.49999999999997,
@@ -33464,20 +33668,20 @@
     "numberOfOpenCases": 13
    },
    "DopplerMining": {
-    "amountOfMoneySpentOnCases": 2375,
-    "amountOfMoneyPaidFromCases": 1020.2499999999993,
+    "amountOfMoneySpentOnCases": 2755,
+    "amountOfMoneyPaidFromCases": 1183.489999999999,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 0,
-    "badCases": 25,
+    "badCases": 29,
     "amountOfTrySpentOnCases": [
-     25
+     29
     ],
     "amountOfMoneySpentToTryCases": [
-     1350
+     1566
     ],
-    "numberOfOpenCases": 25
+    "numberOfOpenCases": 29
    },
    "PREDATOR": {
     "amountOfMoneySpentOnCases": 12810,
@@ -33578,26 +33782,26 @@
     "numberOfOpenCases": 27
    },
    "MIO": {
-    "amountOfMoneySpentOnCases": 10260,
-    "amountOfMoneyPaidFromCases": 8635.570000000002,
+    "amountOfMoneySpentOnCases": 10830,
+    "amountOfMoneyPaidFromCases": 8778.070000000002,
     "X_10": 0,
     "X_5": 0,
     "X_2": 2,
     "goodCases": 3,
-    "badCases": 15,
+    "badCases": 16,
     "amountOfTrySpentOnCases": [
      2,
      1,
      0,
-     12
+     13
     ],
     "amountOfMoneySpentToTryCases": [
      541,
      93,
      0,
-     2843
+     3270
     ],
-    "numberOfOpenCases": 18
+    "numberOfOpenCases": 19
    },
    "casePandao": {
     "amountOfMoneySpentOnCases": 4275,
@@ -34046,12 +34250,12 @@
     "numberOfOpenCases": 26
    },
    "RedCollection": {
-    "amountOfMoneySpentOnCases": 741,
-    "amountOfMoneyPaidFromCases": 1019.1199999999999,
+    "amountOfMoneySpentOnCases": 780,
+    "amountOfMoneyPaidFromCases": 1059.27,
     "X_10": 0,
     "X_5": 1,
     "X_2": 1,
-    "goodCases": 7,
+    "goodCases": 8,
     "badCases": 12,
     "amountOfTrySpentOnCases": [
      1,
@@ -34061,7 +34265,8 @@
      1,
      0,
      0,
-     3
+     3,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      17,
@@ -34071,9 +34276,10 @@
      1,
      0,
      0,
-     2
+     2,
+     0
     ],
-    "numberOfOpenCases": 19
+    "numberOfOpenCases": 20
    },
    "IXGamingcase": {
     "amountOfMoneySpentOnCases": 9120,
@@ -34132,13 +34338,13 @@
     "numberOfOpenCases": 32
    },
    "m4a1s": {
-    "amountOfMoneySpentOnCases": 94050,
-    "amountOfMoneyPaidFromCases": 103556.52999999996,
+    "amountOfMoneySpentOnCases": 98325,
+    "amountOfMoneyPaidFromCases": 106646.72999999994,
     "X_10": 1,
     "X_5": 3,
-    "X_2": 30,
-    "goodCases": 55,
-    "badCases": 143,
+    "X_2": 31,
+    "goodCases": 56,
+    "badCases": 151,
     "amountOfTrySpentOnCases": [
      1,
      3,
@@ -34195,7 +34401,8 @@
      1,
      5,
      6,
-     1
+     7,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      69,
@@ -34253,9 +34460,10 @@
      419,
      1547,
      1093,
-     298
+     1435,
+     628
     ],
-    "numberOfOpenCases": 198
+    "numberOfOpenCases": 207
    },
    "dexon": {
     "amountOfMoneySpentOnCases": 8151,
@@ -34409,13 +34617,14 @@
    },
    "Avatar": {
     "amountOfMoneySpentOnCases": 0,
-    "amountOfMoneyPaidFromCases": 237.18000000000004,
+    "amountOfMoneyPaidFromCases": 237.69000000000003,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
-    "goodCases": 41,
+    "goodCases": 42,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
+     0,
      0,
      0,
      0,
@@ -34501,9 +34710,10 @@
      0,
      0,
      0,
+     0,
      0
     ],
-    "numberOfOpenCases": 41
+    "numberOfOpenCases": 42
    },
    "PurpleCollection": {
     "amountOfMoneySpentOnCases": 447,
@@ -34594,20 +34804,20 @@
     "numberOfOpenCases": 14
    },
    "EasyKnife": {
-    "amountOfMoneySpentOnCases": 43286,
-    "amountOfMoneyPaidFromCases": 55791.26999999997,
+    "amountOfMoneySpentOnCases": 44227,
+    "amountOfMoneyPaidFromCases": 55877.619999999966,
     "X_10": 3,
     "X_5": 2,
     "X_2": 0,
     "goodCases": 5,
-    "badCases": 41,
+    "badCases": 42,
     "amountOfTrySpentOnCases": [
      1,
      12,
      21,
      5,
      2,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      854,
@@ -34615,9 +34825,9 @@
      18158,
      4270,
      1764,
-     0
+     854
     ],
-    "numberOfOpenCases": 46
+    "numberOfOpenCases": 47
    },
    "Ninjacase": {
     "amountOfMoneySpentOnCases": 8459,
@@ -34644,13 +34854,13 @@
     "numberOfOpenCases": 11
    },
    "Starbucks": {
-    "amountOfMoneySpentOnCases": 27664,
-    "amountOfMoneyPaidFromCases": 21256.499999999985,
+    "amountOfMoneySpentOnCases": 28196,
+    "amountOfMoneyPaidFromCases": 21423.689999999984,
     "X_10": 0,
     "X_5": 0,
     "X_2": 9,
     "goodCases": 21,
-    "badCases": 83,
+    "badCases": 85,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -34673,7 +34883,7 @@
      1,
      18,
      2,
-     1
+     3
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -34697,9 +34907,9 @@
      47,
      2601,
      230,
-     93
+     457
     ],
-    "numberOfOpenCases": 104
+    "numberOfOpenCases": 106
    },
    "covert": {
     "amountOfMoneySpentOnCases": 54720,
@@ -35276,20 +35486,20 @@
     "numberOfOpenCases": 7
    },
    "MarweX": {
-    "amountOfMoneySpentOnCases": 5180,
-    "amountOfMoneyPaidFromCases": 2922.83,
+    "amountOfMoneySpentOnCases": 6216,
+    "amountOfMoneyPaidFromCases": 3224.88,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 0,
-    "badCases": 5,
+    "badCases": 6,
     "amountOfTrySpentOnCases": [
-     5
+     6
     ],
     "amountOfMoneySpentToTryCases": [
-     2254
+     2987
     ],
-    "numberOfOpenCases": 5
+    "numberOfOpenCases": 6
    },
    "FadeMining": {
     "amountOfMoneySpentOnCases": 285,
@@ -35450,26 +35660,28 @@
     "numberOfOpenCases": 17
    },
    "WhiteCollection": {
-    "amountOfMoneySpentOnCases": 990,
-    "amountOfMoneyPaidFromCases": 773.03,
+    "amountOfMoneySpentOnCases": 1089,
+    "amountOfMoneyPaidFromCases": 877.53,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
-    "goodCases": 3,
+    "goodCases": 4,
     "badCases": 7,
     "amountOfTrySpentOnCases": [
      0,
      6,
      0,
-     1
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
      328,
      0,
-     23
+     23,
+     0
     ],
-    "numberOfOpenCases": 10
+    "numberOfOpenCases": 11
    },
    "OperationRiptideCase": {
     "amountOfMoneySpentOnCases": 322,
@@ -35624,20 +35836,20 @@
     "numberOfOpenCases": 4
    },
    "TheGreenLegendTV": {
-    "amountOfMoneySpentOnCases": 1252,
-    "amountOfMoneyPaidFromCases": 590.3599999999999,
+    "amountOfMoneySpentOnCases": 1565,
+    "amountOfMoneyPaidFromCases": 808.8599999999999,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 0,
-    "badCases": 4,
+    "badCases": 5,
     "amountOfTrySpentOnCases": [
-     4
+     5
     ],
     "amountOfMoneySpentToTryCases": [
-     659
+     753
     ],
-    "numberOfOpenCases": 4
+    "numberOfOpenCases": 5
    },
    "chroma2": {
     "amountOfMoneySpentOnCases": 475,
@@ -35828,26 +36040,34 @@
     "numberOfOpenCases": 2
    },
    "Fomynha": {
-    "amountOfMoneySpentOnCases": 5472,
-    "amountOfMoneyPaidFromCases": 8742.85,
+    "amountOfMoneySpentOnCases": 8664,
+    "amountOfMoneyPaidFromCases": 12851.039999999999,
     "X_10": 1,
     "X_5": 0,
-    "X_2": 0,
-    "goodCases": 3,
-    "badCases": 9,
+    "X_2": 2,
+    "goodCases": 7,
+    "badCases": 12,
     "amountOfTrySpentOnCases": [
      0,
      1,
      7,
+     1,
+     0,
+     1,
+     1,
      1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
      279,
      1472,
-     131
+     131,
+     0,
+     82,
+     276,
+     354
     ],
-    "numberOfOpenCases": 12
+    "numberOfOpenCases": 19
    },
    "DopplerEra": {
     "amountOfMoneySpentOnCases": 196175,
@@ -36340,14 +36560,14 @@
   }
  },
  "easydrop.win": {
-  "numberOfOpenCases": 22262,
-  "amountOfMoneySpentOnCases": 947853.1100000001,
-  "amountOfMoneyPaidFromCases": 1713508.2100000102,
-  "X_10": 333,
-  "X_5": 710,
-  "X_2": 968,
-  "goodCases": 5420,
-  "badCases": 5711,
+  "numberOfOpenCases": 22476,
+  "amountOfMoneySpentOnCases": 954538.42,
+  "amountOfMoneyPaidFromCases": 1728685.620000012,
+  "X_10": 335,
+  "X_5": 717,
+  "X_2": 977,
+  "goodCases": 5468,
+  "badCases": 5770,
   "amountOfTrySpentOnCases": [
    0,
    0,
@@ -41769,7 +41989,55 @@
    0,
    4,
    4,
-   0
+   0,
+   0,
+   0,
+   4,
+   1,
+   1,
+   0,
+   2,
+   2,
+   1,
+   2,
+   2,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   3,
+   2,
+   3,
+   1,
+   0,
+   1,
+   0,
+   0,
+   4,
+   2,
+   0,
+   0,
+   0,
+   0,
+   1,
+   4,
+   0,
+   2,
+   9,
+   5
   ],
   "amountOfMoneySpentToTryCases": [
    0,
@@ -47192,17 +47460,65 @@
    0,
    384,
    966,
-   0
+   0,
+   0,
+   0,
+   11,
+   5,
+   5,
+   0,
+   251,
+   90,
+   80,
+   106,
+   7,
+   0,
+   145,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   392,
+   96,
+   12,
+   35,
+   106,
+   0,
+   3,
+   0,
+   0,
+   657,
+   91,
+   0,
+   0,
+   0,
+   0,
+   2,
+   961,
+   0,
+   200,
+   14,
+   30
   ],
   "cases": {
    "comeback": {
-    "amountOfMoneySpentOnCases": 5241,
-    "amountOfMoneyPaidFromCases": 7045.290000000005,
+    "amountOfMoneySpentOnCases": 5301,
+    "amountOfMoneyPaidFromCases": 7087.910000000005,
     "X_10": 14,
-    "X_5": 148,
+    "X_5": 149,
     "X_2": 111,
-    "goodCases": 376,
-    "badCases": 1474,
+    "goodCases": 377,
+    "badCases": 1493,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -47580,7 +47896,8 @@
      0,
      3,
      4,
-     5
+     8,
+     16
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -47959,9 +48276,10 @@
      0,
      6,
      6,
-     9
+     12,
+     24
     ],
-    "numberOfOpenCases": 1850
+    "numberOfOpenCases": 1870
    },
    "marmok": {
     "amountOfMoneySpentOnCases": 3564,
@@ -48022,13 +48340,13 @@
     "numberOfOpenCases": 20
    },
    "allin": {
-    "amountOfMoneySpentOnCases": 31850,
-    "amountOfMoneyPaidFromCases": 116016.95999999983,
+    "amountOfMoneySpentOnCases": 31997,
+    "amountOfMoneyPaidFromCases": 116428.80999999985,
     "X_10": 59,
-    "X_5": 112,
+    "X_5": 113,
     "X_2": 43,
-    "goodCases": 304,
-    "badCases": 382,
+    "goodCases": 307,
+    "badCases": 383,
     "amountOfTrySpentOnCases": [
      1,
      0,
@@ -48334,7 +48652,10 @@
      0,
      0,
      2,
-     1
+     2,
+     0,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      37,
@@ -48641,17 +48962,20 @@
      0,
      0,
      67,
-     19
+     47,
+     0,
+     0,
+     0
     ],
-    "numberOfOpenCases": 686
+    "numberOfOpenCases": 690
    },
    "stickers": {
-    "amountOfMoneySpentOnCases": 7540,
-    "amountOfMoneyPaidFromCases": 9315.349999999977,
+    "amountOfMoneySpentOnCases": 7569,
+    "amountOfMoneyPaidFromCases": 9355.839999999976,
     "X_10": 5,
     "X_5": 6,
     "X_2": 10,
-    "goodCases": 57,
+    "goodCases": 58,
     "badCases": 203,
     "amountOfTrySpentOnCases": [
      7,
@@ -48711,7 +49035,8 @@
      10,
      1,
      0,
-     10
+     10,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      149,
@@ -48771,9 +49096,10 @@
      195,
      23,
      0,
-     163
+     163,
+     0
     ],
-    "numberOfOpenCases": 260
+    "numberOfOpenCases": 261
    },
    "classified": {
     "amountOfMoneySpentOnCases": 32437,
@@ -50088,12 +50414,12 @@
     "numberOfOpenCases": 37
    },
    "graffiti": {
-    "amountOfMoneySpentOnCases": 1026,
-    "amountOfMoneyPaidFromCases": 5252.470000000002,
-    "X_10": 12,
-    "X_5": 19,
+    "amountOfMoneySpentOnCases": 1062,
+    "amountOfMoneyPaidFromCases": 5766.770000000002,
+    "X_10": 13,
+    "X_5": 21,
     "X_2": 35,
-    "goodCases": 131,
+    "goodCases": 136,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
      0,
@@ -50227,6 +50553,11 @@
      0,
      0,
      0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -50361,18 +50692,23 @@
      0,
      0,
      0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 131
+    "numberOfOpenCases": 136
    },
    "glock": {
-    "amountOfMoneySpentOnCases": 11682,
-    "amountOfMoneyPaidFromCases": 17515.600000000013,
+    "amountOfMoneySpentOnCases": 11880,
+    "amountOfMoneyPaidFromCases": 17589.81000000002,
     "X_10": 4,
     "X_5": 11,
     "X_2": 1,
-    "goodCases": 104,
-    "badCases": 97,
+    "goodCases": 106,
+    "badCases": 99,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -50478,7 +50814,9 @@
      1,
      2,
      5,
-     1
+     2,
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -50585,9 +50923,11 @@
      92,
      88,
      409,
-     87
+     169,
+     92,
+     0
     ],
-    "numberOfOpenCases": 201
+    "numberOfOpenCases": 205
    },
    "freecase": {
     "amountOfMoneySpentOnCases": 0,
@@ -51238,12 +51578,12 @@
     "numberOfOpenCases": 44
    },
    "farmknife": {
-    "amountOfMoneySpentOnCases": 1854,
-    "amountOfMoneyPaidFromCases": 19119.18000000001,
+    "amountOfMoneySpentOnCases": 1926,
+    "amountOfMoneyPaidFromCases": 19218.420000000006,
     "X_10": 1,
     "X_5": 0,
     "X_2": 87,
-    "goodCases": 206,
+    "goodCases": 214,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
      0,
@@ -51452,6 +51792,14 @@
      0,
      0,
      0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -51661,9 +52009,17 @@
      0,
      0,
      0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 206
+    "numberOfOpenCases": 214
    },
    "mp9": {
     "amountOfMoneySpentOnCases": 2574,
@@ -51754,13 +52110,13 @@
     "numberOfOpenCases": 44
    },
    "bomzh": {
-    "amountOfMoneySpentOnCases": 30772,
-    "amountOfMoneyPaidFromCases": 98975.84999999996,
+    "amountOfMoneySpentOnCases": 31017,
+    "amountOfMoneyPaidFromCases": 99373.75999999995,
     "X_10": 47,
-    "X_5": 82,
+    "X_5": 83,
     "X_2": 61,
-    "goodCases": 331,
-    "badCases": 343,
+    "goodCases": 332,
+    "badCases": 347,
     "amountOfTrySpentOnCases": [
      1,
      0,
@@ -52093,7 +52449,8 @@
      3,
      0,
      2,
-     1
+     3,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      24,
@@ -52427,9 +52784,10 @@
      66,
      0,
      39,
-     18
+     83,
+     37
     ],
-    "numberOfOpenCases": 674
+    "numberOfOpenCases": 679
    },
    "Snakebite": {
     "amountOfMoneySpentOnCases": 1584,
@@ -52654,13 +53012,13 @@
     "numberOfOpenCases": 165
    },
    "restricted": {
-    "amountOfMoneySpentOnCases": 25245,
-    "amountOfMoneyPaidFromCases": 67094.93000000002,
+    "amountOfMoneySpentOnCases": 25938,
+    "amountOfMoneyPaidFromCases": 68799.45000000003,
     "X_10": 15,
-    "X_5": 27,
+    "X_5": 29,
     "X_2": 21,
-    "goodCases": 119,
-    "badCases": 151,
+    "goodCases": 122,
+    "badCases": 155,
     "amountOfTrySpentOnCases": [
      0,
      2,
@@ -52781,7 +53139,10 @@
      0,
      2,
      0,
-     2
+     2,
+     2,
+     1,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -52903,9 +53264,12 @@
      0,
      100,
      0,
-     102
+     102,
+     90,
+     80,
+     59
     ],
-    "numberOfOpenCases": 270
+    "numberOfOpenCases": 277
    },
    "Alermo": {
     "amountOfMoneySpentOnCases": 1287,
@@ -52930,13 +53294,13 @@
     "numberOfOpenCases": 13
    },
    "covert": {
-    "amountOfMoneySpentOnCases": 93366,
-    "amountOfMoneyPaidFromCases": 239168.90999999997,
+    "amountOfMoneySpentOnCases": 93765,
+    "amountOfMoneyPaidFromCases": 239181.17999999996,
     "X_10": 15,
     "X_5": 24,
     "X_2": 31,
     "goodCases": 124,
-    "badCases": 116,
+    "badCases": 117,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -53062,7 +53426,7 @@
      0,
      1,
      4,
-     1
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -53189,9 +53553,9 @@
      0,
      386,
      909,
-     127
+     513
     ],
-    "numberOfOpenCases": 240
+    "numberOfOpenCases": 241
    },
    "tobeornottobe": {
     "amountOfMoneySpentOnCases": 89982,
@@ -55446,13 +55810,13 @@
     "numberOfOpenCases": 260
    },
    "gamma2": {
-    "amountOfMoneySpentOnCases": 4257,
-    "amountOfMoneyPaidFromCases": 8138.029999999998,
+    "amountOfMoneySpentOnCases": 4752,
+    "amountOfMoneyPaidFromCases": 8275.899999999998,
     "X_10": 2,
     "X_5": 5,
     "X_2": 1,
     "goodCases": 10,
-    "badCases": 33,
+    "badCases": 38,
     "amountOfTrySpentOnCases": [
      16,
      8,
@@ -55464,7 +55828,7 @@
      5,
      0,
      0,
-     1
+     6
     ],
     "amountOfMoneySpentToTryCases": [
      1407,
@@ -55477,9 +55841,9 @@
      433,
      0,
      0,
-     89
+     444
     ],
-    "numberOfOpenCases": 43
+    "numberOfOpenCases": 48
    },
    "usercase20699185": {
     "amountOfMoneySpentOnCases": 3640,
@@ -55603,11 +55967,11 @@
    },
    "freecase4": {
     "amountOfMoneySpentOnCases": 0,
-    "amountOfMoneyPaidFromCases": 15285.719999999994,
+    "amountOfMoneyPaidFromCases": 15296.149999999994,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
-    "goodCases": 53,
+    "goodCases": 54,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
      0,
@@ -55663,6 +56027,7 @@
      0,
      0,
      0,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -55719,18 +56084,19 @@
      0,
      0,
      0,
+     0,
      0
     ],
-    "numberOfOpenCases": 53
+    "numberOfOpenCases": 54
    },
    "contract": {
-    "amountOfMoneySpentOnCases": 17823.11,
-    "amountOfMoneyPaidFromCases": 10599.129999999994,
+    "amountOfMoneySpentOnCases": 19164.420000000002,
+    "amountOfMoneyPaidFromCases": 12254.059999999994,
     "X_10": 0,
     "X_5": 0,
     "X_2": 21,
-    "goodCases": 43,
-    "badCases": 87,
+    "goodCases": 44,
+    "badCases": 90,
     "amountOfTrySpentOnCases": [
      3,
      1,
@@ -55775,7 +56141,8 @@
      11,
      0,
      5,
-     12
+     15,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      517,
@@ -55821,9 +56188,10 @@
      2942,
      0,
      426,
-     731
+     1002,
+     0
     ],
-    "numberOfOpenCases": 130
+    "numberOfOpenCases": 134
    },
    "yellow": {
     "amountOfMoneySpentOnCases": 2093,
@@ -55884,13 +56252,13 @@
     "numberOfOpenCases": 46
    },
    "rare": {
-    "amountOfMoneySpentOnCases": 33433,
-    "amountOfMoneyPaidFromCases": 126375.92999999998,
+    "amountOfMoneySpentOnCases": 34431,
+    "amountOfMoneyPaidFromCases": 126517.23999999998,
     "X_10": 9,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 9,
-    "badCases": 58,
+    "badCases": 60,
     "amountOfTrySpentOnCases": [
      7,
      0,
@@ -55901,7 +56269,7 @@
      14,
      10,
      10,
-     4
+     6
     ],
     "amountOfMoneySpentToTryCases": [
      3375,
@@ -55913,9 +56281,9 @@
      6628,
      4598,
      4426,
-     1812
+     2668
     ],
-    "numberOfOpenCases": 67
+    "numberOfOpenCases": 69
    },
    "chroma3": {
     "amountOfMoneySpentOnCases": 6831,
@@ -56880,13 +57248,13 @@
     "numberOfOpenCases": 41
    },
    "september3": {
-    "amountOfMoneySpentOnCases": 1577,
-    "amountOfMoneyPaidFromCases": 7445.510000000002,
+    "amountOfMoneySpentOnCases": 1957,
+    "amountOfMoneyPaidFromCases": 7870.230000000002,
     "X_10": 8,
     "X_5": 7,
-    "X_2": 7,
-    "goodCases": 45,
-    "badCases": 38,
+    "X_2": 9,
+    "goodCases": 51,
+    "badCases": 52,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -56933,7 +57301,13 @@
      0,
      1,
      0,
-     3
+     9,
+     0,
+     1,
+     2,
+     2,
+     1,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      6,
@@ -56981,9 +57355,15 @@
      0,
      6,
      0,
-     12
+     33,
+     0,
+     4,
+     4,
+     12,
+     3,
+     18
     ],
-    "numberOfOpenCases": 83
+    "numberOfOpenCases": 103
    },
    "breakout": {
     "amountOfMoneySpentOnCases": 14256,
@@ -57398,19 +57778,20 @@
     "numberOfOpenCases": 100
    },
    "casualgloves": {
-    "amountOfMoneySpentOnCases": 5988,
-    "amountOfMoneyPaidFromCases": 25449.309999999998,
-    "X_10": 1,
+    "amountOfMoneySpentOnCases": 6986,
+    "amountOfMoneyPaidFromCases": 34411.58,
+    "X_10": 2,
     "X_5": 4,
     "X_2": 0,
-    "goodCases": 5,
-    "badCases": 7,
+    "goodCases": 6,
+    "badCases": 8,
     "amountOfTrySpentOnCases": [
      0,
      2,
      3,
      2,
      0,
+     1,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -57419,9 +57800,10 @@
      1447,
      854,
      0,
+     486,
      0
     ],
-    "numberOfOpenCases": 12
+    "numberOfOpenCases": 14
    },
    "chroma2": {
     "amountOfMoneySpentOnCases": 2475,
@@ -57724,13 +58106,13 @@
     "numberOfOpenCases": 31
    },
    "afterlife": {
-    "amountOfMoneySpentOnCases": 11940,
-    "amountOfMoneyPaidFromCases": 11861.119999999995,
+    "amountOfMoneySpentOnCases": 12139,
+    "amountOfMoneyPaidFromCases": 11868.199999999995,
     "X_10": 2,
     "X_5": 3,
     "X_2": 1,
     "goodCases": 6,
-    "badCases": 54,
+    "badCases": 55,
     "amountOfTrySpentOnCases": [
      5,
      4,
@@ -57738,7 +58120,7 @@
      32,
      0,
      4,
-     3
+     4
     ],
     "amountOfMoneySpentToTryCases": [
      853,
@@ -57747,9 +58129,9 @@
      5930,
      0,
      751,
-     566
+     757
     ],
-    "numberOfOpenCases": 60
+    "numberOfOpenCases": 61
    },
    "usercase20527772": {
     "amountOfMoneySpentOnCases": 900,
@@ -58104,12 +58486,12 @@
     "numberOfOpenCases": 6
    },
    "p90": {
-    "amountOfMoneySpentOnCases": 1584,
-    "amountOfMoneyPaidFromCases": 13884.26,
+    "amountOfMoneySpentOnCases": 1683,
+    "amountOfMoneyPaidFromCases": 14081.640000000001,
     "X_10": 1,
     "X_5": 10,
     "X_2": 0,
-    "goodCases": 31,
+    "goodCases": 34,
     "badCases": 4,
     "amountOfTrySpentOnCases": [
      0,
@@ -58143,7 +58525,10 @@
      0,
      0,
      0,
-     1
+     1,
+     0,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -58177,9 +58562,12 @@
      0,
      0,
      0,
-     91
+     91,
+     0,
+     0,
+     0
     ],
-    "numberOfOpenCases": 35
+    "numberOfOpenCases": 38
    },
    "usercase20845259": {
     "amountOfMoneySpentOnCases": 100,
@@ -58332,13 +58720,13 @@
     "numberOfOpenCases": 8
    },
    "sange_lox": {
-    "amountOfMoneySpentOnCases": 5544,
-    "amountOfMoneyPaidFromCases": 42614.33,
+    "amountOfMoneySpentOnCases": 5643,
+    "amountOfMoneyPaidFromCases": 42627.41,
     "X_10": 10,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 19,
-    "badCases": 43,
+    "badCases": 44,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -58359,7 +58747,7 @@
      3,
      0,
      4,
-     6
+     7
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -58381,9 +58769,9 @@
      247,
      0,
      322,
-     477
+     562
     ],
-    "numberOfOpenCases": 62
+    "numberOfOpenCases": 63
    },
    "wildfire": {
     "amountOfMoneySpentOnCases": 8379,
@@ -59036,14 +59424,25 @@
     "numberOfOpenCases": 3
    },
    "farmusp": {
-    "amountOfMoneySpentOnCases": 486,
-    "amountOfMoneyPaidFromCases": 883.9799999999994,
+    "amountOfMoneySpentOnCases": 585,
+    "amountOfMoneyPaidFromCases": 1100.4299999999992,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 14,
-    "goodCases": 54,
+    "X_2": 20,
+    "goodCases": 65,
     "badCases": 0,
     "amountOfTrySpentOnCases": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0,
      0,
      0,
@@ -59155,9 +59554,20 @@
      0,
      0,
      0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 54
+    "numberOfOpenCases": 65
    },
    "ezdrop": {
     "amountOfMoneySpentOnCases": 1782,
@@ -60690,18 +61100,36 @@
      114
     ],
     "numberOfOpenCases": 2
+   },
+   "usercase20845321": {
+    "amountOfMoneySpentOnCases": 98,
+    "amountOfMoneyPaidFromCases": 114.48,
+    "X_10": 0,
+    "X_5": 0,
+    "X_2": 1,
+    "goodCases": 1,
+    "badCases": 1,
+    "amountOfTrySpentOnCases": [
+     1,
+     0
+    ],
+    "amountOfMoneySpentToTryCases": [
+     47,
+     0
+    ],
+    "numberOfOpenCases": 2
    }
   }
  },
  "case-battle.io": {
-  "numberOfOpenCases": 260226,
-  "amountOfMoneySpentOnCases": 10408389,
-  "amountOfMoneyPaidFromCases": 10039642.89000217,
+  "numberOfOpenCases": 262968,
+  "amountOfMoneySpentOnCases": 10530776,
+  "amountOfMoneyPaidFromCases": 10153356.710002195,
   "X_10": 15,
-  "X_5": 195,
-  "X_2": 14595,
-  "goodCases": 45732,
-  "badCases": 84357,
+  "X_5": 197,
+  "X_2": 14761,
+  "goodCases": 46269,
+  "badCases": 85191,
   "amountOfTrySpentOnCases": [
    1,
    1,
@@ -106435,7 +106863,544 @@
    2,
    1,
    3,
-   1
+   2,
+   1,
+   0,
+   1,
+   0,
+   1,
+   0,
+   1,
+   3,
+   5,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   3,
+   2,
+   1,
+   0,
+   1,
+   0,
+   0,
+   2,
+   1,
+   0,
+   3,
+   0,
+   1,
+   3,
+   2,
+   1,
+   0,
+   0,
+   3,
+   1,
+   1,
+   1,
+   2,
+   2,
+   1,
+   0,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   5,
+   1,
+   2,
+   0,
+   5,
+   2,
+   0,
+   2,
+   2,
+   0,
+   0,
+   3,
+   2,
+   0,
+   0,
+   1,
+   0,
+   2,
+   1,
+   5,
+   1,
+   2,
+   0,
+   0,
+   2,
+   1,
+   0,
+   1,
+   0,
+   0,
+   4,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   2,
+   2,
+   0,
+   2,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   1,
+   1,
+   1,
+   4,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   2,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   1,
+   2,
+   0,
+   0,
+   1,
+   0,
+   4,
+   1,
+   0,
+   3,
+   0,
+   1,
+   0,
+   0,
+   6,
+   1,
+   3,
+   0,
+   3,
+   0,
+   11,
+   2,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   1,
+   2,
+   2,
+   0,
+   1,
+   3,
+   3,
+   4,
+   1,
+   1,
+   2,
+   3,
+   3,
+   1,
+   6,
+   0,
+   6,
+   0,
+   3,
+   1,
+   2,
+   0,
+   0,
+   2,
+   0,
+   2,
+   3,
+   5,
+   7,
+   2,
+   1,
+   5,
+   0,
+   0,
+   9,
+   0,
+   2,
+   2,
+   0,
+   1,
+   3,
+   1,
+   0,
+   11,
+   4,
+   1,
+   0,
+   1,
+   2,
+   8,
+   2,
+   6,
+   6,
+   3,
+   2,
+   3,
+   0,
+   4,
+   1,
+   0,
+   3,
+   2,
+   0,
+   1,
+   1,
+   4,
+   0,
+   1,
+   3,
+   2,
+   0,
+   1,
+   6,
+   1,
+   1,
+   1,
+   3,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   12,
+   1,
+   0,
+   2,
+   1,
+   1,
+   3,
+   1,
+   0,
+   0,
+   0,
+   1,
+   3,
+   4,
+   0,
+   3,
+   2,
+   5,
+   1,
+   8,
+   0,
+   2,
+   10,
+   3,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   3,
+   2,
+   0,
+   0,
+   4,
+   5,
+   3,
+   8,
+   0,
+   0,
+   2,
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   2,
+   5,
+   2,
+   1,
+   4,
+   5,
+   3,
+   2,
+   2,
+   0,
+   1,
+   1,
+   2,
+   2,
+   3,
+   2,
+   6,
+   0,
+   3,
+   0,
+   0,
+   6,
+   5,
+   0,
+   5,
+   0,
+   8,
+   4,
+   0,
+   0,
+   14,
+   1,
+   0,
+   5,
+   1,
+   0,
+   0,
+   0,
+   2,
+   1,
+   2,
+   2,
+   3,
+   2,
+   0,
+   2,
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   3,
+   2,
+   1,
+   1,
+   16,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   0,
+   1,
+   3,
+   3,
+   0,
+   3,
+   2,
+   2,
+   3,
+   0,
+   0,
+   0,
+   2,
+   1,
+   1,
+   3,
+   1,
+   2,
+   1,
+   0,
+   2,
+   0,
+   1,
+   0,
+   0,
+   5,
+   0,
+   1,
+   0,
+   0,
+   4,
+   3,
+   0,
+   3,
+   0,
+   0,
+   2,
+   2,
+   2,
+   0,
+   0,
+   1,
+   0,
+   0,
+   2,
+   1,
+   1,
+   1,
+   2,
+   1,
+   0,
+   1,
+   6,
+   2,
+   1,
+   0,
+   1,
+   0,
+   2,
+   0,
+   4,
+   5,
+   0,
+   0,
+   0,
+   1,
+   2,
+   3,
+   3,
+   0,
+   0,
+   2,
+   0,
+   4,
+   2,
+   0,
+   0,
+   5,
+   1,
+   0,
+   1,
+   6,
+   1,
+   0,
+   5,
+   2,
+   1,
+   2,
+   4,
+   6,
+   1,
+   0,
+   1,
+   1,
+   0,
+   3,
+   0,
+   1,
+   1,
+   2,
+   0,
+   1,
+   4,
+   0,
+   0,
+   1,
+   1,
+   0,
+   2,
+   0,
+   0,
+   5,
+   5,
+   1,
+   2,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   2,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   1,
+   3,
+   2,
+   1,
+   0,
+   2,
+   1,
+   1,
+   0,
+   0,
+   8,
+   0,
+   1,
+   2,
+   5,
+   4,
+   3,
+   2,
+   5,
+   0,
+   0,
+   6,
+   1,
+   2,
+   1,
+   2,
+   0,
+   3,
+   2,
+   0,
+   0,
+   1,
+   4,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2
   ],
   "amountOfMoneySpentToTryCases": [
    24,
@@ -152170,17 +153135,554 @@
    40,
    9,
    15,
-   50
+   65,
+   33,
+   0,
+   0,
+   0,
+   9,
+   0,
+   72,
+   52,
+   642,
+   17,
+   6,
+   0,
+   0,
+   0,
+   0,
+   13,
+   34,
+   27,
+   113,
+   0,
+   6,
+   0,
+   0,
+   158,
+   106,
+   0,
+   75,
+   0,
+   6,
+   150,
+   226,
+   26,
+   0,
+   0,
+   53,
+   6,
+   15,
+   5,
+   84,
+   29,
+   6,
+   0,
+   201,
+   20,
+   0,
+   23,
+   0,
+   0,
+   201,
+   5,
+   26,
+   0,
+   60,
+   19,
+   0,
+   23,
+   69,
+   0,
+   0,
+   107,
+   107,
+   0,
+   0,
+   6,
+   0,
+   13,
+   112,
+   219,
+   6,
+   40,
+   0,
+   0,
+   75,
+   12,
+   0,
+   6,
+   0,
+   0,
+   252,
+   55,
+   10,
+   0,
+   7,
+   0,
+   0,
+   27,
+   0,
+   0,
+   0,
+   28,
+   0,
+   0,
+   79,
+   11,
+   0,
+   22,
+   10,
+   0,
+   33,
+   0,
+   0,
+   0,
+   0,
+   0,
+   94,
+   6,
+   7,
+   147,
+   91,
+   36,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   156,
+   0,
+   69,
+   0,
+   0,
+   12,
+   6,
+   20,
+   0,
+   5,
+   0,
+   39,
+   16,
+   0,
+   0,
+   158,
+   0,
+   171,
+   15,
+   0,
+   13,
+   0,
+   13,
+   0,
+   0,
+   138,
+   24,
+   34,
+   0,
+   104,
+   0,
+   303,
+   12,
+   0,
+   8,
+   8,
+   0,
+   0,
+   0,
+   50,
+   27,
+   1652,
+   12,
+   0,
+   75,
+   21,
+   128,
+   124,
+   10,
+   519,
+   18,
+   88,
+   292,
+   10,
+   309,
+   0,
+   100,
+   0,
+   105,
+   85,
+   80,
+   0,
+   0,
+   12,
+   0,
+   12,
+   39,
+   64,
+   358,
+   39,
+   55,
+   50,
+   0,
+   0,
+   305,
+   0,
+   92,
+   8,
+   0,
+   6,
+   23,
+   0,
+   0,
+   125,
+   126,
+   23,
+   0,
+   3,
+   119,
+   1778,
+   20,
+   270,
+   244,
+   36,
+   9,
+   612,
+   0,
+   64,
+   4,
+   0,
+   188,
+   24,
+   0,
+   14,
+   2,
+   200,
+   0,
+   79,
+   116,
+   19,
+   0,
+   0,
+   45,
+   6,
+   6,
+   189,
+   136,
+   15,
+   0,
+   0,
+   0,
+   0,
+   20,
+   0,
+   0,
+   13,
+   199,
+   55,
+   0,
+   136,
+   32,
+   0,
+   58,
+   8,
+   6,
+   63,
+   15,
+   0,
+   0,
+   0,
+   22,
+   152,
+   68,
+   0,
+   231,
+   2,
+   1730,
+   2,
+   154,
+   0,
+   110,
+   408,
+   27,
+   0,
+   0,
+   0,
+   6,
+   9,
+   15,
+   18,
+   16,
+   0,
+   0,
+   39,
+   304,
+   50,
+   102,
+   0,
+   0,
+   193,
+   0,
+   0,
+   6,
+   6,
+   0,
+   16,
+   12,
+   143,
+   35,
+   23,
+   66,
+   26,
+   64,
+   37,
+   14,
+   0,
+   19,
+   12,
+   14,
+   12,
+   100,
+   12,
+   330,
+   0,
+   48,
+   0,
+   0,
+   92,
+   472,
+   0,
+   30,
+   0,
+   333,
+   43,
+   0,
+   0,
+   790,
+   6,
+   0,
+   66,
+   17,
+   0,
+   0,
+   0,
+   74,
+   13,
+   11,
+   15,
+   19,
+   12,
+   0,
+   233,
+   0,
+   0,
+   6,
+   0,
+   17,
+   8,
+   48,
+   6,
+   6,
+   24,
+   264,
+   52,
+   127,
+   6,
+   6,
+   309,
+   128,
+   0,
+   199,
+   0,
+   0,
+   0,
+   6,
+   0,
+   2,
+   32,
+   42,
+   0,
+   38,
+   52,
+   14,
+   70,
+   0,
+   0,
+   0,
+   56,
+   6,
+   141,
+   123,
+   26,
+   32,
+   75,
+   0,
+   57,
+   0,
+   6,
+   0,
+   0,
+   239,
+   0,
+   15,
+   0,
+   0,
+   69,
+   59,
+   0,
+   99,
+   0,
+   0,
+   49,
+   15,
+   12,
+   0,
+   0,
+   26,
+   0,
+   0,
+   174,
+   9,
+   11,
+   6,
+   11,
+   6,
+   0,
+   7,
+   2561,
+   21,
+   8,
+   0,
+   61,
+   0,
+   0,
+   0,
+   85,
+   37,
+   0,
+   0,
+   0,
+   259,
+   14,
+   54,
+   29,
+   0,
+   0,
+   160,
+   0,
+   31,
+   548,
+   0,
+   0,
+   95,
+   6,
+   0,
+   8,
+   125,
+   61,
+   0,
+   54,
+   8,
+   5,
+   153,
+   53,
+   102,
+   6,
+   0,
+   6,
+   7,
+   0,
+   250,
+   0,
+   15,
+   13,
+   253,
+   0,
+   789,
+   45,
+   0,
+   0,
+   75,
+   10,
+   0,
+   32,
+   0,
+   0,
+   89,
+   41,
+   26,
+   82,
+   0,
+   0,
+   6,
+   6,
+   0,
+   0,
+   0,
+   0,
+   124,
+   0,
+   26,
+   0,
+   0,
+   205,
+   0,
+   0,
+   6,
+   0,
+   0,
+   6,
+   6,
+   29,
+   11,
+   27,
+   0,
+   175,
+   6,
+   7,
+   0,
+   0,
+   255,
+   0,
+   2,
+   31,
+   147,
+   292,
+   8,
+   214,
+   735,
+   0,
+   0,
+   140,
+   75,
+   34,
+   20,
+   277,
+   0,
+   80,
+   32,
+   0,
+   0,
+   9,
+   67,
+   56,
+   41,
+   101,
+   0,
+   0,
+   0,
+   0,
+   22
   ],
   "cases": {
    "Каспер": {
-    "amountOfMoneySpentOnCases": 751491,
-    "amountOfMoneyPaidFromCases": 759212.2699998956,
+    "amountOfMoneySpentOnCases": 759915,
+    "amountOfMoneyPaidFromCases": 767717.4899998934,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 1672,
-    "goodCases": 7262,
-    "badCases": 12007,
+    "X_2": 1702,
+    "goodCases": 7354,
+    "badCases": 12131,
     "amountOfTrySpentOnCases": [
      2,
      0,
@@ -159444,7 +160946,99 @@
      1,
      1,
      0,
-     1
+     3,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     3,
+     6,
+     0,
+     3,
+     1,
+     1,
+     0,
+     2,
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     2,
+     0,
+     6,
+     0,
+     1,
+     1,
+     0,
+     2,
+     3,
+     3,
+     6,
+     0,
+     3,
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1,
+     0,
+     9,
+     0,
+     6,
+     9,
+     1,
+     0,
+     1,
+     3,
+     3,
+     2,
+     0,
+     1,
+     3,
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     0,
+     0,
+     2,
+     1,
+     1,
+     0,
+     1,
+     0,
+     5,
+     1,
+     0,
+     2,
+     0,
+     2,
+     1,
+     1,
+     0,
+     3,
+     0,
+     1,
+     0,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      50,
@@ -166709,18 +168303,110 @@
      23,
      7,
      0,
-     24
+     48,
+     0,
+     0,
+     27,
+     0,
+     0,
+     0,
+     64,
+     127,
+     0,
+     55,
+     7,
+     23,
+     0,
+     24,
+     19,
+     26,
+     19,
+     26,
+     0,
+     0,
+     35,
+     0,
+     95,
+     0,
+     7,
+     21,
+     0,
+     42,
+     51,
+     57,
+     114,
+     0,
+     66,
+     0,
+     23,
+     23,
+     19,
+     0,
+     0,
+     20,
+     0,
+     0,
+     26,
+     0,
+     0,
+     0,
+     0,
+     24,
+     23,
+     0,
+     162,
+     0,
+     119,
+     162,
+     7,
+     0,
+     17,
+     69,
+     49,
+     45,
+     0,
+     21,
+     55,
+     0,
+     0,
+     0,
+     0,
+     0,
+     70,
+     0,
+     0,
+     0,
+     32,
+     17,
+     23,
+     0,
+     26,
+     0,
+     94,
+     23,
+     0,
+     43,
+     0,
+     43,
+     17,
+     23,
+     0,
+     65,
+     0,
+     24,
+     0,
+     32
     ],
-    "numberOfOpenCases": 19269
+    "numberOfOpenCases": 19485
    },
    "Desert Eagle всем": {
-    "amountOfMoneySpentOnCases": 121785,
-    "amountOfMoneyPaidFromCases": 120614.50000000073,
+    "amountOfMoneySpentOnCases": 123096,
+    "amountOfMoneyPaidFromCases": 122219.37000000072,
     "X_10": 0,
     "X_5": 23,
-    "X_2": 113,
-    "goodCases": 584,
-    "badCases": 1181,
+    "X_2": 117,
+    "goodCases": 590,
+    "badCases": 1194,
     "amountOfTrySpentOnCases": [
      0,
      3,
@@ -167306,7 +168992,13 @@
      0,
      2,
      0,
-     1
+     1,
+     3,
+     0,
+     5,
+     5,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -167893,18 +169585,24 @@
      0,
      84,
      0,
-     36
+     36,
+     117,
+     0,
+     213,
+     173,
+     0,
+     0
     ],
-    "numberOfOpenCases": 1765
+    "numberOfOpenCases": 1784
    },
    "Major 2021 ": {
-    "amountOfMoneySpentOnCases": 256486,
-    "amountOfMoneyPaidFromCases": 241356.2099999997,
+    "amountOfMoneySpentOnCases": 262474,
+    "amountOfMoneyPaidFromCases": 247818.12999999968,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 56,
-    "goodCases": 124,
-    "badCases": 388,
+    "X_2": 57,
+    "goodCases": 127,
+    "badCases": 397,
     "amountOfTrySpentOnCases": [
      11,
      2,
@@ -168030,7 +169728,10 @@
      0,
      2,
      0,
-     1
+     4,
+     0,
+     3,
+     3
     ],
     "amountOfMoneySpentToTryCases": [
      1711,
@@ -168157,18 +169858,21 @@
      0,
      371,
      0,
-     111
+     497,
+     0,
+     605,
+     625
     ],
-    "numberOfOpenCases": 514
+    "numberOfOpenCases": 526
    },
    "Сильвер Элита": {
-    "amountOfMoneySpentOnCases": 588575,
-    "amountOfMoneyPaidFromCases": 592746.5800000185,
+    "amountOfMoneySpentOnCases": 594321,
+    "amountOfMoneyPaidFromCases": 598485.2400000192,
     "X_10": 0,
-    "X_5": 111,
-    "X_2": 5532,
-    "goodCases": 14777,
-    "badCases": 30498,
+    "X_5": 112,
+    "X_2": 5586,
+    "goodCases": 14924,
+    "badCases": 30793,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -182947,6 +184651,153 @@
      4,
      0,
      6,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     1,
+     0,
+     2,
+     1,
+     0,
+     2,
+     1,
+     3,
+     1,
+     0,
+     3,
+     4,
+     3,
+     0,
+     1,
+     0,
+     1,
+     2,
+     3,
+     1,
+     0,
+     0,
+     1,
+     2,
+     0,
+     0,
+     1,
+     0,
+     2,
+     0,
+     1,
+     0,
+     2,
+     1,
+     0,
+     3,
+     2,
+     2,
+     6,
+     0,
+     0,
+     0,
+     2,
+     4,
+     1,
+     2,
+     2,
+     0,
+     0,
+     1,
+     0,
+     10,
+     0,
+     9,
+     1,
+     1,
+     3,
+     7,
+     3,
+     1,
+     3,
+     3,
+     8,
+     0,
+     0,
+     0,
+     0,
+     5,
+     0,
+     1,
+     2,
+     2,
+     6,
+     0,
+     5,
+     1,
+     0,
+     4,
+     0,
+     9,
+     0,
+     0,
+     5,
+     9,
+     3,
+     0,
+     3,
+     1,
+     15,
+     2,
+     2,
+     0,
+     4,
+     0,
+     2,
+     1,
+     1,
+     7,
+     0,
+     0,
+     8,
+     0,
+     2,
+     2,
+     0,
+     1,
+     1,
+     0,
+     2,
+     1,
+     0,
+     1,
+     2,
+     0,
+     4,
+     1,
+     4,
+     8,
+     2,
+     2,
+     8,
+     5,
+     1,
+     0,
+     6,
+     1,
+     1,
+     0,
+     1,
+     0,
+     1,
+     0,
+     2,
+     3,
+     12,
+     2,
+     2,
+     0,
+     0,
+     5,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -197727,18 +199578,165 @@
      18,
      0,
      35,
+     0,
+     0,
+     0,
+     0,
+     8,
+     0,
+     6,
+     0,
+     12,
+     0,
+     0,
+     8,
+     6,
+     17,
+     6,
+     0,
+     17,
+     25,
+     18,
+     0,
+     6,
+     0,
+     6,
+     6,
+     15,
+     6,
+     0,
+     0,
+     2,
+     11,
+     0,
+     0,
+     6,
+     0,
+     10,
+     0,
+     5,
+     0,
+     11,
+     1,
+     0,
+     20,
+     14,
+     7,
+     27,
+     0,
+     0,
+     0,
+     11,
+     22,
+     6,
+     12,
+     6,
+     0,
+     0,
+     2,
+     0,
+     49,
+     0,
+     39,
+     6,
+     3,
+     18,
+     37,
+     16,
+     1,
+     13,
+     10,
+     44,
+     0,
+     0,
+     0,
+     0,
+     21,
+     0,
+     6,
+     8,
+     12,
+     22,
+     0,
+     30,
+     6,
+     0,
+     22,
+     0,
+     52,
+     0,
+     0,
+     30,
+     49,
+     18,
+     0,
+     18,
+     6,
+     81,
+     14,
+     6,
+     0,
+     24,
+     0,
+     12,
+     8,
+     6,
+     42,
+     0,
+     0,
+     38,
+     0,
+     12,
+     12,
+     0,
+     6,
+     6,
+     0,
+     12,
+     4,
+     0,
+     4,
+     12,
+     0,
+     23,
+     3,
+     12,
+     48,
+     9,
+     12,
+     45,
+     30,
+     1,
+     0,
+     35,
+     6,
+     6,
+     0,
+     6,
+     0,
+     6,
+     0,
+     12,
+     12,
+     50,
+     12,
+     7,
+     0,
+     0,
+     19,
+     0,
      0
     ],
-    "numberOfOpenCases": 45275
+    "numberOfOpenCases": 45717
    },
    "Джек Скеллингтон": {
-    "amountOfMoneySpentOnCases": 1436589,
-    "amountOfMoneyPaidFromCases": 1541112.3800000106,
+    "amountOfMoneySpentOnCases": 1449558,
+    "amountOfMoneyPaidFromCases": 1555601.7100000104,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 3068,
-    "goodCases": 5021,
-    "badCases": 9490,
+    "X_2": 3098,
+    "goodCases": 5073,
+    "badCases": 9569,
     "amountOfTrySpentOnCases": [
      4,
      1,
@@ -202761,7 +204759,59 @@
      1,
      0,
      0,
-     1
+     1,
+     4,
+     2,
+     2,
+     0,
+     0,
+     3,
+     0,
+     0,
+     0,
+     0,
+     2,
+     1,
+     2,
+     3,
+     1,
+     4,
+     3,
+     1,
+     0,
+     4,
+     0,
+     0,
+     10,
+     2,
+     1,
+     2,
+     0,
+     2,
+     0,
+     0,
+     5,
+     0,
+     0,
+     0,
+     3,
+     0,
+     4,
+     2,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     1,
+     2,
+     0,
+     6,
+     5,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      191,
@@ -207785,17 +209835,69 @@
      50,
      0,
      0,
-     50
+     50,
+     191,
+     144,
+     94,
+     0,
+     0,
+     199,
+     0,
+     0,
+     0,
+     0,
+     130,
+     64,
+     79,
+     144,
+     75,
+     126,
+     182,
+     72,
+     0,
+     198,
+     0,
+     0,
+     422,
+     87,
+     75,
+     97,
+     0,
+     96,
+     0,
+     0,
+     279,
+     0,
+     0,
+     0,
+     141,
+     0,
+     197,
+     122,
+     0,
+     0,
+     0,
+     0,
+     63,
+     0,
+     0,
+     75,
+     83,
+     0,
+     293,
+     245,
+     0,
+     0
     ],
-    "numberOfOpenCases": 14511
+    "numberOfOpenCases": 14642
    },
    "Angry Чак": {
-    "amountOfMoneySpentOnCases": 29205,
-    "amountOfMoneyPaidFromCases": 31178.11,
+    "amountOfMoneySpentOnCases": 29260,
+    "amountOfMoneyPaidFromCases": 31341.260000000002,
     "X_10": 0,
     "X_5": 2,
-    "X_2": 88,
-    "goodCases": 203,
+    "X_2": 89,
+    "goodCases": 204,
     "badCases": 328,
     "amountOfTrySpentOnCases": [
      0,
@@ -208001,6 +210103,7 @@
      1,
      0,
      2,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -208207,18 +210310,19 @@
      34,
      0,
      61,
+     0,
      0
     ],
-    "numberOfOpenCases": 531
+    "numberOfOpenCases": 532
    },
    "007": {
-    "amountOfMoneySpentOnCases": 194712,
-    "amountOfMoneyPaidFromCases": 187974.65999999654,
+    "amountOfMoneySpentOnCases": 196878,
+    "amountOfMoneyPaidFromCases": 190268.93999999663,
     "X_10": 0,
-    "X_5": 18,
-    "X_2": 778,
-    "goodCases": 4028,
-    "badCases": 6220,
+    "X_5": 19,
+    "X_2": 788,
+    "goodCases": 4083,
+    "badCases": 6279,
     "amountOfTrySpentOnCases": [
      0,
      2,
@@ -212248,7 +214352,62 @@
      3,
      2,
      0,
-     0
+     2,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     3,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     1,
+     3,
+     0,
+     3,
+     2,
+     1,
+     0,
+     2,
+     1,
+     5,
+     1,
+     2,
+     1,
+     1,
+     0,
+     1,
+     1,
+     2,
+     2,
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     4,
+     0,
+     0,
+     2,
+     5,
+     2,
+     0,
+     2,
+     0,
+     0,
+     2,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -216279,17 +218438,72 @@
      28,
      21,
      0,
-     0
+     12,
+     9,
+     0,
+     0,
+     12,
+     0,
+     0,
+     30,
+     10,
+     10,
+     0,
+     0,
+     0,
+     0,
+     12,
+     0,
+     0,
+     0,
+     0,
+     10,
+     26,
+     0,
+     29,
+     16,
+     10,
+     0,
+     9,
+     10,
+     45,
+     10,
+     24,
+     0,
+     12,
+     0,
+     12,
+     6,
+     24,
+     13,
+     0,
+     6,
+     0,
+     0,
+     0,
+     0,
+     35,
+     0,
+     0,
+     15,
+     51,
+     20,
+     0,
+     20,
+     0,
+     0,
+     17,
+     7
     ],
-    "numberOfOpenCases": 10248
+    "numberOfOpenCases": 10362
    },
    "Тайное оружие": {
-    "amountOfMoneySpentOnCases": 259900,
-    "amountOfMoneyPaidFromCases": 236152.19000000038,
+    "amountOfMoneySpentOnCases": 260820,
+    "amountOfMoneyPaidFromCases": 237222.91000000038,
     "X_10": 0,
     "X_5": 0,
     "X_2": 14,
-    "goodCases": 182,
+    "goodCases": 184,
     "badCases": 381,
     "amountOfTrySpentOnCases": [
      0,
@@ -216474,7 +218688,9 @@
      3,
      0,
      2,
-     3
+     3,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -216659,9 +218875,11 @@
      372,
      0,
      334,
-     443
+     443,
+     0,
+     0
     ],
-    "numberOfOpenCases": 565
+    "numberOfOpenCases": 567
    },
    "Наруто": {
     "amountOfMoneySpentOnCases": 30527,
@@ -216938,13 +219156,13 @@
     "numberOfOpenCases": 343
    },
    "Всадник без головы": {
-    "amountOfMoneySpentOnCases": 888111,
-    "amountOfMoneyPaidFromCases": 805397.8000000006,
+    "amountOfMoneySpentOnCases": 895104,
+    "amountOfMoneyPaidFromCases": 810023.7700000006,
     "X_10": 0,
     "X_5": 0,
     "X_2": 73,
-    "goodCases": 256,
-    "badCases": 633,
+    "goodCases": 257,
+    "badCases": 639,
     "amountOfTrySpentOnCases": [
      11,
      0,
@@ -217202,6 +219420,7 @@
      0,
      5,
      7,
+     6,
      3
     ],
     "amountOfMoneySpentToTryCases": [
@@ -217461,18 +219680,19 @@
      0,
      2823,
      3494,
-     1564
+     3100,
+     1079
     ],
-    "numberOfOpenCases": 889
+    "numberOfOpenCases": 896
    },
    "Glock-18 всем": {
-    "amountOfMoneySpentOnCases": 66906,
-    "amountOfMoneyPaidFromCases": 65987.27000000003,
+    "amountOfMoneySpentOnCases": 67968,
+    "amountOfMoneyPaidFromCases": 67258.79000000002,
     "X_10": 0,
     "X_5": 15,
-    "X_2": 135,
-    "goodCases": 399,
-    "badCases": 735,
+    "X_2": 140,
+    "goodCases": 408,
+    "badCases": 744,
     "amountOfTrySpentOnCases": [
      2,
      4,
@@ -217873,7 +220093,16 @@
      0,
      2,
      2,
-     0
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     2,
+     6
     ],
     "amountOfMoneySpentToTryCases": [
      51,
@@ -218275,18 +220504,27 @@
      0,
      73,
      73,
-     0
+     0,
+     0,
+     0,
+     0,
+     0,
+     26,
+     0,
+     0,
+     65,
+     164
     ],
-    "numberOfOpenCases": 1134
+    "numberOfOpenCases": 1152
    },
    "Рунический": {
-    "amountOfMoneySpentOnCases": 202333,
-    "amountOfMoneyPaidFromCases": 210287.64999999444,
+    "amountOfMoneySpentOnCases": 206103,
+    "amountOfMoneyPaidFromCases": 214296.1899999946,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 546,
-    "goodCases": 2903,
-    "badCases": 4074,
+    "X_2": 556,
+    "goodCases": 2962,
+    "badCases": 4145,
     "amountOfTrySpentOnCases": [
      2,
      1,
@@ -221191,7 +223429,66 @@
      0,
      1,
      0,
-     2
+     4,
+     1,
+     1,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0,
+     3,
+     5,
+     2,
+     1,
+     1,
+     0,
+     4,
+     1,
+     4,
+     2,
+     0,
+     0,
+     2,
+     2,
+     0,
+     4,
+     1,
+     2,
+     1,
+     0,
+     0,
+     2,
+     0,
+     0,
+     1,
+     1,
+     2,
+     3,
+     1,
+     3,
+     0,
+     1,
+     2,
+     0,
+     0,
+     2,
+     0,
+     1,
+     0,
+     1,
+     0,
+     2,
+     0,
+     0,
+     0,
+     1,
+     0,
+     5,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      17,
@@ -224097,18 +226394,77 @@
      0,
      8,
      0,
-     24
+     52,
+     13,
+     9,
+     13,
+     0,
+     0,
+     7,
+     0,
+     0,
+     7,
+     0,
+     35,
+     59,
+     23,
+     8,
+     13,
+     0,
+     51,
+     9,
+     52,
+     24,
+     0,
+     0,
+     26,
+     21,
+     0,
+     42,
+     13,
+     17,
+     13,
+     0,
+     0,
+     26,
+     0,
+     0,
+     11,
+     13,
+     26,
+     27,
+     8,
+     31,
+     0,
+     13,
+     24,
+     0,
+     0,
+     22,
+     0,
+     13,
+     0,
+     13,
+     0,
+     15,
+     0,
+     0,
+     0,
+     11,
+     0,
+     59,
+     13
     ],
-    "numberOfOpenCases": 6977
+    "numberOfOpenCases": 7107
    },
    "Наклейки S-box": {
-    "amountOfMoneySpentOnCases": 35950,
-    "amountOfMoneyPaidFromCases": 35360.03999999992,
+    "amountOfMoneySpentOnCases": 36600,
+    "amountOfMoneyPaidFromCases": 36091.31999999993,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 44,
-    "goodCases": 273,
-    "badCases": 446,
+    "X_2": 45,
+    "goodCases": 281,
+    "badCases": 451,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -224383,7 +226739,15 @@
      2,
      0,
      0,
-     4
+     4,
+     3,
+     0,
+     1,
+     0,
+     1,
+     0,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      7,
@@ -224659,9 +227023,17 @@
      56,
      0,
      0,
-     93
+     93,
+     62,
+     0,
+     30,
+     0,
+     29,
+     0,
+     0,
+     0
     ],
-    "numberOfOpenCases": 719
+    "numberOfOpenCases": 732
    },
    "Инь и Янь": {
     "amountOfMoneySpentOnCases": 25688,
@@ -224722,13 +227094,13 @@
     "numberOfOpenCases": 52
    },
    "AWP всем": {
-    "amountOfMoneySpentOnCases": 81776,
-    "amountOfMoneyPaidFromCases": 71685.69999999997,
+    "amountOfMoneySpentOnCases": 82583,
+    "amountOfMoneyPaidFromCases": 72265.17999999996,
     "X_10": 0,
     "X_5": 0,
     "X_2": 23,
-    "goodCases": 84,
-    "badCases": 220,
+    "goodCases": 85,
+    "badCases": 222,
     "amountOfTrySpentOnCases": [
      2,
      3,
@@ -224814,7 +227186,8 @@
      2,
      1,
      1,
-     6
+     8,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      291,
@@ -224901,18 +227274,19 @@
      221,
      100,
      187,
-     1034
+     1320,
+     0
     ],
-    "numberOfOpenCases": 304
+    "numberOfOpenCases": 307
    },
    "Армейское оружие": {
-    "amountOfMoneySpentOnCases": 50000,
-    "amountOfMoneyPaidFromCases": 43134.159999999974,
+    "amountOfMoneySpentOnCases": 50775,
+    "amountOfMoneyPaidFromCases": 44029.48999999998,
     "X_10": 0,
     "X_5": 10,
-    "X_2": 73,
-    "goodCases": 687,
-    "badCases": 1313,
+    "X_2": 76,
+    "goodCases": 701,
+    "badCases": 1330,
     "amountOfTrySpentOnCases": [
      1,
      2,
@@ -225601,7 +227975,21 @@
      2,
      0,
      1,
-     2
+     3,
+     1,
+     0,
+     2,
+     2,
+     0,
+     0,
+     7,
+     0,
+     0,
+     0,
+     0,
+     2,
+     1,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      18,
@@ -226291,18 +228679,32 @@
      20,
      0,
      5,
-     14
+     26,
+     5,
+     0,
+     26,
+     16,
+     0,
+     0,
+     47,
+     0,
+     0,
+     0,
+     0,
+     22,
+     18,
+     12
     ],
-    "numberOfOpenCases": 2000
+    "numberOfOpenCases": 2031
    },
    "Звезды": {
-    "amountOfMoneySpentOnCases": 75625,
-    "amountOfMoneyPaidFromCases": 77424.21999999987,
+    "amountOfMoneySpentOnCases": 76100,
+    "amountOfMoneyPaidFromCases": 77844.58999999985,
     "X_10": 0,
     "X_5": 0,
     "X_2": 123,
-    "goodCases": 1120,
-    "badCases": 1905,
+    "goodCases": 1127,
+    "badCases": 1917,
     "amountOfTrySpentOnCases": [
      3,
      0,
@@ -227424,6 +229826,13 @@
      5,
      1,
      6,
+     1,
+     1,
+     3,
+     0,
+     0,
+     6,
+     1,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -228547,9 +230956,16 @@
      60,
      16,
      71,
-     16
+     16,
+     13,
+     26,
+     0,
+     0,
+     84,
+     12,
+     2
     ],
-    "numberOfOpenCases": 3025
+    "numberOfOpenCases": 3044
    },
    "Обезьянья Оспа": {
     "amountOfMoneySpentOnCases": 31383,
@@ -228846,13 +231262,13 @@
     "numberOfOpenCases": 317
    },
    "Case-Battle": {
-    "amountOfMoneySpentOnCases": 56485,
-    "amountOfMoneyPaidFromCases": 54351.6500000002,
+    "amountOfMoneySpentOnCases": 56815,
+    "amountOfMoneyPaidFromCases": 54869.71000000021,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 45,
-    "goodCases": 332,
-    "badCases": 685,
+    "X_2": 46,
+    "goodCases": 335,
+    "badCases": 688,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -229184,6 +231600,9 @@
      0,
      0,
      1,
+     0,
+     1,
+     2,
      0,
      1,
      0
@@ -229521,18 +231940,21 @@
      22,
      0,
      28,
+     43,
+     0,
+     28,
      0
     ],
-    "numberOfOpenCases": 1027
+    "numberOfOpenCases": 1033
    },
    "M4A1-S всем": {
-    "amountOfMoneySpentOnCases": 41580,
-    "amountOfMoneyPaidFromCases": 36607.409999999974,
+    "amountOfMoneySpentOnCases": 43395,
+    "amountOfMoneyPaidFromCases": 39124.53999999997,
     "X_10": 0,
     "X_5": 0,
     "X_2": 8,
-    "goodCases": 60,
-    "badCases": 192,
+    "goodCases": 66,
+    "badCases": 197,
     "amountOfTrySpentOnCases": [
      1,
      0,
@@ -229594,6 +232016,12 @@
      2,
      5,
      3,
+     1,
+     0,
+     0,
+     1,
+     3,
+     0,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -229657,18 +232085,24 @@
      108,
      338,
      215,
+     92,
+     0,
+     0,
+     26,
+     78,
+     0,
      0
     ],
-    "numberOfOpenCases": 252
+    "numberOfOpenCases": 263
    },
    "Farm - девайсы": {
-    "amountOfMoneySpentOnCases": 42570,
-    "amountOfMoneyPaidFromCases": 45488.53999999986,
+    "amountOfMoneySpentOnCases": 42845,
+    "amountOfMoneyPaidFromCases": 45839.73999999987,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 134,
-    "goodCases": 265,
-    "badCases": 509,
+    "X_2": 136,
+    "goodCases": 267,
+    "badCases": 512,
     "amountOfTrySpentOnCases": [
      2,
      4,
@@ -229935,7 +232369,9 @@
      1,
      2,
      1,
-     3
+     5,
+     0,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      59,
@@ -230203,18 +232639,20 @@
      35,
      47,
      18,
-     74
+     144,
+     0,
+     25
     ],
-    "numberOfOpenCases": 774
+    "numberOfOpenCases": 779
    },
    "USP-S всем": {
-    "amountOfMoneySpentOnCases": 99567,
-    "amountOfMoneyPaidFromCases": 97944.5700000002,
+    "amountOfMoneySpentOnCases": 100188,
+    "amountOfMoneyPaidFromCases": 98593.31000000019,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 186,
-    "goodCases": 508,
-    "badCases": 935,
+    "X_2": 188,
+    "goodCases": 512,
+    "badCases": 940,
     "amountOfTrySpentOnCases": [
      0,
      4,
@@ -230724,7 +233162,11 @@
      2,
      0,
      4,
-     7
+     9,
+     0,
+     1,
+     0,
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -231235,18 +233677,22 @@
      97,
      0,
      138,
-     225
+     271,
+     0,
+     42,
+     0,
+     110
     ],
-    "numberOfOpenCases": 1443
+    "numberOfOpenCases": 1452
    },
    "Euro 2020": {
-    "amountOfMoneySpentOnCases": 147143,
-    "amountOfMoneyPaidFromCases": 133910.01000000047,
+    "amountOfMoneySpentOnCases": 148219,
+    "amountOfMoneyPaidFromCases": 135094.71000000043,
     "X_10": 0,
     "X_5": 0,
     "X_2": 17,
-    "goodCases": 154,
-    "badCases": 393,
+    "goodCases": 157,
+    "badCases": 394,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -231402,6 +233848,9 @@
      0,
      3,
      2,
+     1,
+     0,
+     0,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -231559,18 +234008,21 @@
      0,
      303,
      149,
-     92
+     92,
+     0,
+     0,
+     154
     ],
-    "numberOfOpenCases": 547
+    "numberOfOpenCases": 551
    },
    "M4A4 всем": {
-    "amountOfMoneySpentOnCases": 29435,
-    "amountOfMoneyPaidFromCases": 25411.440000000013,
+    "amountOfMoneySpentOnCases": 30885,
+    "amountOfMoneyPaidFromCases": 26686.38000000002,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 16,
-    "goodCases": 54,
-    "badCases": 149,
+    "X_2": 17,
+    "goodCases": 57,
+    "badCases": 156,
     "amountOfTrySpentOnCases": [
      7,
      5,
@@ -231626,7 +234078,10 @@
      0,
      3,
      0,
-     1
+     1,
+     4,
+     3,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      482,
@@ -231683,18 +234138,21 @@
      0,
      222,
      0,
-     44
+     44,
+     266,
+     166,
+     0
     ],
-    "numberOfOpenCases": 203
+    "numberOfOpenCases": 213
    },
    "Капсулы": {
-    "amountOfMoneySpentOnCases": 33858,
-    "amountOfMoneyPaidFromCases": 31211.86,
+    "amountOfMoneySpentOnCases": 34452,
+    "amountOfMoneyPaidFromCases": 31762.159999999996,
     "X_10": 0,
     "X_5": 0,
     "X_2": 14,
-    "goodCases": 148,
-    "badCases": 191,
+    "goodCases": 152,
+    "badCases": 193,
     "amountOfTrySpentOnCases": [
      1,
      2,
@@ -231844,7 +234302,11 @@
      0,
      0,
      4,
-     2
+     2,
+     1,
+     0,
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      61,
@@ -231995,18 +234457,22 @@
      0,
      0,
      186,
-     123
+     123,
+     63,
+     0,
+     63,
+     0
     ],
-    "numberOfOpenCases": 342
+    "numberOfOpenCases": 348
    },
    "Кейс Superman": {
-    "amountOfMoneySpentOnCases": 30750,
-    "amountOfMoneyPaidFromCases": 30608.100000000057,
+    "amountOfMoneySpentOnCases": 31000,
+    "amountOfMoneyPaidFromCases": 30803.320000000058,
     "X_10": 0,
     "X_5": 0,
     "X_2": 8,
-    "goodCases": 113,
-    "badCases": 133,
+    "goodCases": 114,
+    "badCases": 134,
     "amountOfTrySpentOnCases": [
      2,
      1,
@@ -232121,7 +234587,8 @@
      1,
      1,
      0,
-     2
+     3,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      122,
@@ -232237,9 +234704,10 @@
      13,
      58,
      0,
-     83
+     175,
+     0
     ],
-    "numberOfOpenCases": 246
+    "numberOfOpenCases": 248
    },
    "Охотничий нож": {
     "amountOfMoneySpentOnCases": 59996,
@@ -232258,13 +234726,13 @@
     "numberOfOpenCases": 4
    },
    "Магия": {
-    "amountOfMoneySpentOnCases": 32700,
-    "amountOfMoneyPaidFromCases": 37021.659999999945,
+    "amountOfMoneySpentOnCases": 32850,
+    "amountOfMoneyPaidFromCases": 37194.939999999944,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 108,
-    "goodCases": 179,
-    "badCases": 257,
+    "X_2": 109,
+    "goodCases": 180,
+    "badCases": 258,
     "amountOfTrySpentOnCases": [
      1,
      4,
@@ -232445,7 +234913,8 @@
      3,
      2,
      12,
-     2
+     2,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      51,
@@ -232627,18 +235096,19 @@
      91,
      83,
      538,
-     79
+     79,
+     55
     ],
-    "numberOfOpenCases": 436
+    "numberOfOpenCases": 438
    },
    "Big Star": {
-    "amountOfMoneySpentOnCases": 22635,
-    "amountOfMoneyPaidFromCases": 20092.67999999996,
+    "amountOfMoneySpentOnCases": 22860,
+    "amountOfMoneyPaidFromCases": 20234.999999999956,
     "X_10": 0,
     "X_5": 0,
     "X_2": 17,
-    "goodCases": 154,
-    "badCases": 344,
+    "goodCases": 155,
+    "badCases": 348,
     "amountOfTrySpentOnCases": [
      0,
      3,
@@ -232794,7 +235264,8 @@
      1,
      1,
      2,
-     2
+     2,
+     4
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -232951,9 +235422,10 @@
      23,
      25,
      35,
-     50
+     50,
+     85
     ],
-    "numberOfOpenCases": 503
+    "numberOfOpenCases": 508
    },
    "Наклейки M-box": {
     "amountOfMoneySpentOnCases": 16800,
@@ -233160,13 +235632,13 @@
     "numberOfOpenCases": 118
    },
    "Лизун": {
-    "amountOfMoneySpentOnCases": 498465,
-    "amountOfMoneyPaidFromCases": 471218.74000000703,
+    "amountOfMoneySpentOnCases": 503235,
+    "amountOfMoneyPaidFromCases": 474855.47000000696,
     "X_10": 0,
     "X_5": 0,
     "X_2": 394,
-    "goodCases": 1276,
-    "badCases": 1859,
+    "goodCases": 1285,
+    "badCases": 1880,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -234444,7 +236916,16 @@
      1,
      4,
      3,
-     3
+     8,
+     2,
+     2,
+     2,
+     0,
+     4,
+     5,
+     0,
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      79,
@@ -235723,18 +238204,27 @@
      79,
      433,
      334,
-     264
+     676,
+     67,
+     43,
+     137,
+     0,
+     304,
+     415,
+     0,
+     128,
+     0
     ],
-    "numberOfOpenCases": 3135
+    "numberOfOpenCases": 3165
    },
    "Один выстрел, один труп": {
-    "amountOfMoneySpentOnCases": 26970,
-    "amountOfMoneyPaidFromCases": 21402.95,
+    "amountOfMoneySpentOnCases": 27115,
+    "amountOfMoneyPaidFromCases": 21459.02,
     "X_10": 0,
     "X_5": 0,
     "X_2": 15,
     "goodCases": 48,
-    "badCases": 138,
+    "badCases": 139,
     "amountOfTrySpentOnCases": [
      4,
      3,
@@ -235784,7 +238274,7 @@
      1,
      2,
      0,
-     1
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      248,
@@ -235835,18 +238325,18 @@
      100,
      74,
      0,
-     41
+     129
     ],
-    "numberOfOpenCases": 186
+    "numberOfOpenCases": 187
    },
    "Full BUY - раунд": {
-    "amountOfMoneySpentOnCases": 79380,
-    "amountOfMoneyPaidFromCases": 77209.1200000001,
+    "amountOfMoneySpentOnCases": 80703,
+    "amountOfMoneyPaidFromCases": 78497.25000000012,
     "X_10": 0,
     "X_5": 0,
     "X_2": 42,
-    "goodCases": 151,
-    "badCases": 269,
+    "goodCases": 155,
+    "badCases": 272,
     "amountOfTrySpentOnCases": [
      2,
      1,
@@ -235999,7 +238489,11 @@
      2,
      2,
      0,
-     2
+     2,
+     0,
+     1,
+     2,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      221,
@@ -236153,9 +238647,13 @@
      127,
      107,
      0,
-     29
+     29,
+     0,
+     85,
+     224,
+     0
     ],
-    "numberOfOpenCases": 420
+    "numberOfOpenCases": 427
    },
    "Калаши": {
     "amountOfMoneySpentOnCases": 2450,
@@ -236478,13 +238976,13 @@
     "numberOfOpenCases": 192
    },
    "Глобал Элита": {
-    "amountOfMoneySpentOnCases": 23463,
-    "amountOfMoneyPaidFromCases": 22710.140000000032,
+    "amountOfMoneySpentOnCases": 23661,
+    "amountOfMoneyPaidFromCases": 23095.770000000033,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 11,
-    "goodCases": 89,
-    "badCases": 148,
+    "X_2": 12,
+    "goodCases": 90,
+    "badCases": 149,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -236575,7 +239073,8 @@
      7,
      2,
      0,
-     1
+     2,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      66,
@@ -236667,9 +239166,10 @@
      388,
      118,
      0,
-     41
+     82,
+     0
     ],
-    "numberOfOpenCases": 237
+    "numberOfOpenCases": 239
    },
    "Stray": {
     "amountOfMoneySpentOnCases": 28457,
@@ -237430,13 +239930,13 @@
     "numberOfOpenCases": 657
    },
    "Детектив Пикачу": {
-    "amountOfMoneySpentOnCases": 18512,
-    "amountOfMoneyPaidFromCases": 16738.219999999972,
+    "amountOfMoneySpentOnCases": 18616,
+    "amountOfMoneyPaidFromCases": 16849.099999999973,
     "X_10": 0,
     "X_5": 0,
     "X_2": 6,
-    "goodCases": 104,
-    "badCases": 252,
+    "goodCases": 105,
+    "badCases": 253,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -237542,7 +240042,8 @@
      0,
      3,
      1,
-     0
+     0,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -237649,18 +240150,19 @@
      0,
      45,
      15,
-     0
+     0,
+     23
     ],
-    "numberOfOpenCases": 356
+    "numberOfOpenCases": 358
    },
    "Прорыв": {
-    "amountOfMoneySpentOnCases": 7410,
-    "amountOfMoneyPaidFromCases": 5715.769999999997,
+    "amountOfMoneySpentOnCases": 7505,
+    "amountOfMoneyPaidFromCases": 5739.179999999997,
     "X_10": 0,
     "X_5": 0,
     "X_2": 2,
     "goodCases": 32,
-    "badCases": 46,
+    "badCases": 47,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -237694,7 +240196,7 @@
      1,
      1,
      2,
-     1
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      77,
@@ -237729,18 +240231,18 @@
      9,
      77,
      86,
-     71
+     142
     ],
-    "numberOfOpenCases": 78
+    "numberOfOpenCases": 79
    },
    "Градиент": {
-    "amountOfMoneySpentOnCases": 85158,
-    "amountOfMoneyPaidFromCases": 85956.43999999992,
+    "amountOfMoneySpentOnCases": 86901,
+    "amountOfMoneyPaidFromCases": 89722.20999999992,
     "X_10": 0,
     "X_5": 1,
-    "X_2": 46,
-    "goodCases": 133,
-    "badCases": 209,
+    "X_2": 48,
+    "goodCases": 138,
+    "badCases": 211,
     "amountOfTrySpentOnCases": [
      2,
      1,
@@ -237875,6 +240377,11 @@
      1,
      0,
      6,
+     1,
+     0,
+     1,
+     0,
+     0,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -238011,9 +240518,14 @@
      143,
      0,
      846,
-     143
+     143,
+     0,
+     143,
+     0,
+     0,
+     144
     ],
-    "numberOfOpenCases": 342
+    "numberOfOpenCases": 349
    },
    "Засекреченное оружие": {
     "amountOfMoneySpentOnCases": 26505,
@@ -238082,13 +240594,13 @@
     "numberOfOpenCases": 95
    },
    "Angry Ред": {
-    "amountOfMoneySpentOnCases": 11790,
-    "amountOfMoneyPaidFromCases": 10128.329999999993,
+    "amountOfMoneySpentOnCases": 12015,
+    "amountOfMoneyPaidFromCases": 10306.949999999992,
     "X_10": 0,
     "X_5": 0,
     "X_2": 10,
-    "goodCases": 95,
-    "badCases": 167,
+    "goodCases": 96,
+    "badCases": 171,
     "amountOfTrySpentOnCases": [
      0,
      1,
@@ -238185,7 +240697,8 @@
      1,
      1,
      0,
-     1
+     5,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -238283,9 +240796,10 @@
      9,
      27,
      0,
-     27
+     99,
+     0
     ],
-    "numberOfOpenCases": 262
+    "numberOfOpenCases": 267
    },
    "Расколотая сеть": {
     "amountOfMoneySpentOnCases": 2581,
@@ -238490,13 +241004,13 @@
     "numberOfOpenCases": 246
    },
    "Хромированный кейс #3": {
-    "amountOfMoneySpentOnCases": 8650,
-    "amountOfMoneyPaidFromCases": 8628.520000000004,
+    "amountOfMoneySpentOnCases": 8700,
+    "amountOfMoneyPaidFromCases": 8644.120000000004,
     "X_10": 0,
     "X_5": 0,
     "X_2": 33,
     "goodCases": 54,
-    "badCases": 119,
+    "badCases": 120,
     "amountOfTrySpentOnCases": [
      2,
      6,
@@ -238552,7 +241066,7 @@
      1,
      1,
      1,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      55,
@@ -238609,18 +241123,18 @@
      38,
      22,
      18,
-     0
+     34
     ],
-    "numberOfOpenCases": 173
+    "numberOfOpenCases": 174
    },
    "Эко - раунд": {
-    "amountOfMoneySpentOnCases": 16324,
-    "amountOfMoneyPaidFromCases": 15782.170000000027,
+    "amountOfMoneySpentOnCases": 16544,
+    "amountOfMoneyPaidFromCases": 16025.75000000003,
     "X_10": 0,
     "X_5": 0,
     "X_2": 17,
-    "goodCases": 129,
-    "badCases": 242,
+    "goodCases": 132,
+    "badCases": 244,
     "amountOfTrySpentOnCases": [
      4,
      2,
@@ -238751,7 +241265,10 @@
      1,
      2,
      11,
-     4
+     6,
+     0,
+     0,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      62,
@@ -238883,18 +241400,21 @@
      16,
      37,
      190,
-     66
+     107,
+     0,
+     0,
+     0
     ],
-    "numberOfOpenCases": 371
+    "numberOfOpenCases": 376
    },
    "Рубиновый кейс": {
-    "amountOfMoneySpentOnCases": 280719,
-    "amountOfMoneyPaidFromCases": 249691.0299999998,
+    "amountOfMoneySpentOnCases": 282717,
+    "amountOfMoneyPaidFromCases": 251142.72999999978,
     "X_10": 0,
     "X_5": 0,
     "X_2": 12,
     "goodCases": 97,
-    "badCases": 184,
+    "badCases": 186,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -238993,7 +241513,7 @@
      0,
      0,
      2,
-     0
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      465,
@@ -239093,9 +241613,9 @@
      0,
      0,
      730,
-     0
+     545
     ],
-    "numberOfOpenCases": 281
+    "numberOfOpenCases": 283
    },
    "Zeus": {
     "amountOfMoneySpentOnCases": 17919,
@@ -239262,13 +241782,13 @@
     "numberOfOpenCases": 181
    },
    "iCase": {
-    "amountOfMoneySpentOnCases": 445000,
-    "amountOfMoneyPaidFromCases": 472337.36,
+    "amountOfMoneySpentOnCases": 475000,
+    "amountOfMoneyPaidFromCases": 493725.07000000007,
     "X_10": 0,
     "X_5": 0,
     "X_2": 6,
     "goodCases": 32,
-    "badCases": 57,
+    "badCases": 63,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -239302,7 +241822,7 @@
      0,
      0,
      0,
-     12
+     18
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -239337,18 +241857,18 @@
      0,
      0,
      0,
-     27263
+     35873
     ],
-    "numberOfOpenCases": 89
+    "numberOfOpenCases": 95
    },
    "StatTrak™ всем": {
-    "amountOfMoneySpentOnCases": 89280,
-    "amountOfMoneyPaidFromCases": 79159.87000000011,
+    "amountOfMoneySpentOnCases": 89838,
+    "amountOfMoneyPaidFromCases": 79401.21000000011,
     "X_10": 0,
     "X_5": 0,
     "X_2": 12,
     "goodCases": 94,
-    "badCases": 226,
+    "badCases": 228,
     "amountOfTrySpentOnCases": [
      2,
      2,
@@ -239444,7 +241964,7 @@
      16,
      2,
      3,
-     1
+     3
     ],
     "amountOfMoneySpentToTryCases": [
      101,
@@ -239541,18 +242061,18 @@
      1744,
      316,
      384,
-     158
+     474
     ],
-    "numberOfOpenCases": 320
+    "numberOfOpenCases": 322
    },
    "Гладиатор": {
-    "amountOfMoneySpentOnCases": 71252,
-    "amountOfMoneyPaidFromCases": 67788.01999999996,
+    "amountOfMoneySpentOnCases": 72010,
+    "amountOfMoneyPaidFromCases": 68418.63999999997,
     "X_10": 0,
     "X_5": 0,
     "X_2": 28,
-    "goodCases": 60,
-    "badCases": 128,
+    "goodCases": 61,
+    "badCases": 129,
     "amountOfTrySpentOnCases": [
      2,
      2,
@@ -239614,7 +242134,8 @@
      0,
      0,
      1,
-     0
+     0,
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      408,
@@ -239677,18 +242198,19 @@
      0,
      0,
      195,
-     0
+     0,
+     208
     ],
-    "numberOfOpenCases": 188
+    "numberOfOpenCases": 190
    },
    "Запретная зона": {
-    "amountOfMoneySpentOnCases": 4725,
-    "amountOfMoneyPaidFromCases": 4073.340000000003,
+    "amountOfMoneySpentOnCases": 4815,
+    "amountOfMoneyPaidFromCases": 4141.430000000003,
     "X_10": 0,
     "X_5": 1,
     "X_2": 6,
     "goodCases": 28,
-    "badCases": 77,
+    "badCases": 79,
     "amountOfTrySpentOnCases": [
      0,
      2,
@@ -239718,7 +242240,7 @@
      1,
      2,
      3,
-     3
+     5
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -239749,18 +242271,18 @@
      33,
      24,
      53,
-     57
+     78
     ],
-    "numberOfOpenCases": 105
+    "numberOfOpenCases": 107
    },
    "Plants vs Zombies": {
-    "amountOfMoneySpentOnCases": 36333,
-    "amountOfMoneyPaidFromCases": 36074.75999999998,
+    "amountOfMoneySpentOnCases": 36432,
+    "amountOfMoneyPaidFromCases": 36144.26999999998,
     "X_10": 0,
     "X_5": 0,
     "X_2": 47,
     "goodCases": 122,
-    "badCases": 245,
+    "badCases": 246,
     "amountOfTrySpentOnCases": [
      0,
      2,
@@ -239884,7 +242406,7 @@
      1,
      1,
      2,
-     0
+     1
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -240009,9 +242531,9 @@
      64,
      39,
      112,
-     0
+     29
     ],
-    "numberOfOpenCases": 367
+    "numberOfOpenCases": 368
    },
    "Летний кейс eSports 2014": {
     "amountOfMoneySpentOnCases": 5373,
@@ -240052,13 +242574,13 @@
     "numberOfOpenCases": 27
    },
    "Берсерк": {
-    "amountOfMoneySpentOnCases": 58320,
-    "amountOfMoneyPaidFromCases": 54406.33999999992,
+    "amountOfMoneySpentOnCases": 59400,
+    "amountOfMoneyPaidFromCases": 55625.36999999991,
     "X_10": 0,
     "X_5": 0,
     "X_2": 24,
-    "goodCases": 229,
-    "badCases": 257,
+    "goodCases": 236,
+    "badCases": 259,
     "amountOfTrySpentOnCases": [
      4,
      5,
@@ -240285,6 +242807,13 @@
      2,
      0,
      2,
+     0,
+     1,
+     0,
+     0,
+     0,
+     1,
+     0,
      0,
      1,
      0,
@@ -240521,18 +243050,25 @@
      63,
      0,
      0,
+     0,
+     63,
+     0,
+     0,
+     87,
+     0,
+     0,
      0
     ],
-    "numberOfOpenCases": 486
+    "numberOfOpenCases": 495
    },
    "Перчаточный БУМ": {
-    "amountOfMoneySpentOnCases": 369260,
-    "amountOfMoneyPaidFromCases": 342784.67999999935,
+    "amountOfMoneySpentOnCases": 373252,
+    "amountOfMoneyPaidFromCases": 345148.66999999934,
     "X_10": 13,
     "X_5": 7,
     "X_2": 3,
     "goodCases": 119,
-    "badCases": 621,
+    "badCases": 629,
     "amountOfTrySpentOnCases": [
      2,
      5,
@@ -240653,7 +243189,7 @@
      8,
      5,
      12,
-     4
+     12
     ],
     "amountOfMoneySpentToTryCases": [
      528,
@@ -240775,17 +243311,17 @@
      1442,
      1162,
      2677,
-     769
+     2393
     ],
-    "numberOfOpenCases": 740
+    "numberOfOpenCases": 748
    },
    "Изумрудный кейс": {
-    "amountOfMoneySpentOnCases": 55350,
-    "amountOfMoneyPaidFromCases": 48620.249999999985,
+    "amountOfMoneySpentOnCases": 55800,
+    "amountOfMoneyPaidFromCases": 49307.73999999998,
     "X_10": 0,
     "X_5": 0,
     "X_2": 1,
-    "goodCases": 28,
+    "goodCases": 29,
     "badCases": 95,
     "amountOfTrySpentOnCases": [
      0,
@@ -240816,7 +243352,8 @@
      4,
      5,
      1,
-     3
+     3,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -240847,9 +243384,10 @@
      540,
      675,
      135,
-     405
+     405,
+     0
     ],
-    "numberOfOpenCases": 123
+    "numberOfOpenCases": 124
    },
    "Операция \"Дикое пламя\"": {
     "amountOfMoneySpentOnCases": 2210,
@@ -241010,13 +243548,13 @@
     "numberOfOpenCases": 178
    },
    "AK-47 всем": {
-    "amountOfMoneySpentOnCases": 76167,
-    "amountOfMoneyPaidFromCases": 68016.12000000018,
+    "amountOfMoneySpentOnCases": 78678,
+    "amountOfMoneyPaidFromCases": 70248.78000000022,
     "X_10": 0,
     "X_5": 0,
     "X_2": 7,
-    "goodCases": 73,
-    "badCases": 200,
+    "goodCases": 76,
+    "badCases": 206,
     "amountOfTrySpentOnCases": [
      5,
      1,
@@ -241091,7 +243629,10 @@
      0,
      0,
      6,
-     6
+     11,
+     0,
+     1,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      565,
@@ -241167,9 +243708,12 @@
      0,
      0,
      776,
-     652
+     1229,
+     0,
+     199,
+     0
     ],
-    "numberOfOpenCases": 273
+    "numberOfOpenCases": 282
    },
    "Алмазный": {
     "amountOfMoneySpentOnCases": 374875,
@@ -241252,13 +243796,13 @@
     "numberOfOpenCases": 125
    },
    "Агенты": {
-    "amountOfMoneySpentOnCases": 93225,
-    "amountOfMoneyPaidFromCases": 89779.16000000002,
+    "amountOfMoneySpentOnCases": 94242,
+    "amountOfMoneyPaidFromCases": 90799.43000000002,
     "X_10": 0,
     "X_5": 0,
     "X_2": 5,
-    "goodCases": 104,
-    "badCases": 171,
+    "goodCases": 105,
+    "badCases": 173,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -241363,6 +243907,7 @@
      0,
      0,
      0,
+     2,
      2,
      2
     ],
@@ -241471,18 +244016,19 @@
      0,
      0,
      205,
-     254
+     254,
+     247
     ],
-    "numberOfOpenCases": 275
+    "numberOfOpenCases": 278
    },
    "Major 2022": {
-    "amountOfMoneySpentOnCases": 173550,
-    "amountOfMoneyPaidFromCases": 151856.73,
+    "amountOfMoneySpentOnCases": 176150,
+    "amountOfMoneyPaidFromCases": 155289.14,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 24,
-    "goodCases": 63,
-    "badCases": 204,
+    "X_2": 25,
+    "goodCases": 65,
+    "badCases": 206,
     "amountOfTrySpentOnCases": [
      3,
      5,
@@ -241547,6 +244093,8 @@
      4,
      1,
      6,
+     2,
+     0,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -241613,9 +244161,11 @@
      1115,
      323,
      1705,
-     378
+     452,
+     0,
+     74
     ],
-    "numberOfOpenCases": 267
+    "numberOfOpenCases": 271
    },
    "Веном": {
     "amountOfMoneySpentOnCases": 16800,
@@ -241922,13 +244472,13 @@
     "numberOfOpenCases": 68
    },
    "StatTrak™ Elite ": {
-    "amountOfMoneySpentOnCases": 90093,
-    "amountOfMoneyPaidFromCases": 75352.72000000004,
+    "amountOfMoneySpentOnCases": 91111,
+    "amountOfMoneyPaidFromCases": 75957.41000000005,
     "X_10": 0,
     "X_5": 0,
     "X_2": 1,
     "goodCases": 53,
-    "badCases": 124,
+    "badCases": 126,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -241983,7 +244533,7 @@
      0,
      0,
      1,
-     3
+     5
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -242039,9 +244589,9 @@
      0,
      0,
      260,
-     393
+     805
     ],
-    "numberOfOpenCases": 177
+    "numberOfOpenCases": 179
    },
    "Horizon - ножи из будущего": {
     "amountOfMoneySpentOnCases": 48231,
@@ -242338,13 +244888,13 @@
     "numberOfOpenCases": 16
    },
    "Кейс «Призма 2»": {
-    "amountOfMoneySpentOnCases": 1755,
-    "amountOfMoneyPaidFromCases": 1776.0400000000006,
+    "amountOfMoneySpentOnCases": 1890,
+    "amountOfMoneyPaidFromCases": 2027.8300000000006,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 2,
-    "goodCases": 16,
-    "badCases": 23,
+    "X_2": 3,
+    "goodCases": 18,
+    "badCases": 24,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -242362,6 +244912,8 @@
      3,
      0,
      2,
+     0,
+     1,
      0
     ],
     "amountOfMoneySpentToTryCases": [
@@ -242381,9 +244933,11 @@
      86,
      0,
      33,
+     0,
+     16,
      0
     ],
-    "numberOfOpenCases": 39
+    "numberOfOpenCases": 42
    },
    "Операция \"Прорыв\"": {
     "amountOfMoneySpentOnCases": 1875,
@@ -243078,13 +245632,13 @@
     "numberOfOpenCases": 2
    },
    "Самара": {
-    "amountOfMoneySpentOnCases": 597254,
-    "amountOfMoneyPaidFromCases": 613231.629999994,
+    "amountOfMoneySpentOnCases": 603211,
+    "amountOfMoneyPaidFromCases": 618875.0999999939,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 420,
-    "goodCases": 811,
-    "badCases": 1495,
+    "X_2": 423,
+    "goodCases": 817,
+    "badCases": 1512,
     "amountOfTrySpentOnCases": [
      3,
      3,
@@ -243897,7 +246451,13 @@
      0,
      1,
      11,
-     10
+     10,
+     2,
+     1,
+     3,
+     9,
+     2,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      410,
@@ -244711,9 +247271,15 @@
      0,
      155,
      1482,
-     1262
+     1262,
+     378,
+     89,
+     452,
+     880,
+     370,
+     0
     ],
-    "numberOfOpenCases": 2306
+    "numberOfOpenCases": 2329
    },
    "Recoil Case": {
     "amountOfMoneySpentOnCases": 650,
@@ -244780,46 +247346,46 @@
     "numberOfOpenCases": 3
    },
    "Кейс «Разлом»": {
-    "amountOfMoneySpentOnCases": 1199,
-    "amountOfMoneyPaidFromCases": 849.4200000000001,
+    "amountOfMoneySpentOnCases": 1417,
+    "amountOfMoneyPaidFromCases": 963.2700000000001,
     "X_10": 0,
     "X_5": 0,
     "X_2": 2,
     "goodCases": 2,
-    "badCases": 9,
+    "badCases": 11,
     "amountOfTrySpentOnCases": [
      2,
      1,
-     6
+     8
     ],
     "amountOfMoneySpentToTryCases": [
      141,
      81,
-     478
+     581
     ],
-    "numberOfOpenCases": 11
+    "numberOfOpenCases": 13
    },
    "Кейс eSports 2013": {
-    "amountOfMoneySpentOnCases": 7344,
-    "amountOfMoneyPaidFromCases": 5141.759999999999,
+    "amountOfMoneySpentOnCases": 7803,
+    "amountOfMoneyPaidFromCases": 5476.079999999999,
     "X_10": 0,
     "X_5": 0,
     "X_2": 0,
     "goodCases": 3,
-    "badCases": 13,
+    "badCases": 14,
     "amountOfTrySpentOnCases": [
      7,
      4,
      1,
-     1
+     2
     ],
     "amountOfMoneySpentToTryCases": [
      1235,
      873,
      236,
-     124
+     248
     ],
-    "numberOfOpenCases": 16
+    "numberOfOpenCases": 17
    },
    "Бладхаунд": {
     "amountOfMoneySpentOnCases": 6475,
@@ -244920,13 +247486,13 @@
     "numberOfOpenCases": 10
    },
    "Оружейный кейс #3": {
-    "amountOfMoneySpentOnCases": 4122,
-    "amountOfMoneyPaidFromCases": 3928.17,
+    "amountOfMoneySpentOnCases": 4809,
+    "amountOfMoneyPaidFromCases": 4443.5,
     "X_10": 0,
     "X_5": 0,
     "X_2": 1,
-    "goodCases": 8,
-    "badCases": 10,
+    "goodCases": 9,
+    "badCases": 12,
     "amountOfTrySpentOnCases": [
      1,
      1,
@@ -244936,6 +247502,7 @@
      1,
      4,
      0,
+     2,
      1
     ],
     "amountOfMoneySpentToTryCases": [
@@ -244947,9 +247514,10 @@
      104,
      419,
      0,
-     104
+     216,
+     79
     ],
-    "numberOfOpenCases": 18
+    "numberOfOpenCases": 21
    },
    "S1mple": {
     "amountOfMoneySpentOnCases": 16500,
@@ -245052,13 +247620,13 @@
     "numberOfOpenCases": 132
    },
    "Крид": {
-    "amountOfMoneySpentOnCases": 15730,
-    "amountOfMoneyPaidFromCases": 15182.15,
+    "amountOfMoneySpentOnCases": 16720,
+    "amountOfMoneyPaidFromCases": 16506.75,
     "X_10": 0,
     "X_5": 0,
-    "X_2": 20,
-    "goodCases": 51,
-    "badCases": 91,
+    "X_2": 22,
+    "goodCases": 55,
+    "badCases": 96,
     "amountOfTrySpentOnCases": [
      0,
      0,
@@ -245111,7 +247679,11 @@
      2,
      0,
      0,
-     2
+     2,
+     0,
+     2,
+     3,
+     0
     ],
     "amountOfMoneySpentToTryCases": [
      0,
@@ -245165,9 +247737,13 @@
      128,
      0,
      0,
-     126
+     126,
+     0,
+     84,
+     51,
+     0
     ],
-    "numberOfOpenCases": 143
+    "numberOfOpenCases": 152
    },
    "Фредди Крюгер": {
     "amountOfMoneySpentOnCases": 23998,
