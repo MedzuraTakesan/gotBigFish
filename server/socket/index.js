@@ -3,14 +3,22 @@ const market = require('./market')
 
 const subscribeToChannel = (socket, channel) => {
     if (channel.indexOf(market.shortCaseUpdateChannel) > -1) {
-        market.subscribeToShortUpdate(socket, channel)
+        market.subscribeToUpdate(socket, channel)
+        return
+    }
+    if (channel.indexOf(market.fullCaseUpdateChannel) > -1) {
+        market.subscribeToUpdate(socket, channel)
         return
     }
 }
 
 const unSubscribeToChannel = (socket, channel) => {
     if (channel.indexOf(market.shortCaseUpdateChannel) > -1) {
-        market.unSubscribeToShortUpdate(socket, channel)
+        market.unSubscribeToUpdate(socket, channel)
+        return
+    }
+    if (channel.indexOf(market.fullCaseUpdateChannel) > -1) {
+        market.unSubscribeToUpdate(socket, channel)
         return
     }
 }
@@ -41,5 +49,6 @@ const init = (server) => {
 
 module.exports = {
     init,
-    sendShortUpdate: market.sendShortUpdate
+    sendShortUpdate: market.sendShortUpdate,
+    sendFullUpdate: market.sendFullUpdate
 }

@@ -21,7 +21,10 @@
         :key="item.key"
         :cols="cols"
       >
-        <short-case-view :item="item"/>
+        <short-case-view
+          :item="item"
+          @onAboutClick="unSubscribeUpdates"
+        />
       </b-col>
       <b-pagination
         v-model="currentPage"
@@ -113,23 +116,27 @@ export default {
         socket.emit('subscribe', {
           channel: this.channelName
         })
-      }, 500)
+      }, 5000)
 
 
       socket.on(this.channelName, this.setMarketsCase)
     }
   },
   beforeRouteUpdate(to, from, next) {
-    const channel  = `${this.channelName}`
-    socket.emit('unsubscribe', {
-      channel: channel
-    })
-    socket.off(this.channelName, this.setMarketsCase)
+    console.log('update')
+    this.unSubscribeUpdates()
     next()
   },
   methods: {
     ...mapActions('settings', ['fetchMarket']),
     ...mapMutations('settings', ['setMarketsCase']),
+    unSubscribeUpdates() {
+      const channel  = `${this.channelName}`
+      socket.emit('unsubscribe', {
+        channel: channel
+      })
+      socket.off(channel, this.setMarketsCase)
+    },
     filterByCount(cases) {
       if (!cases) {
         return []

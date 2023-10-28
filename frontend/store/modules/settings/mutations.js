@@ -21,5 +21,8 @@ export default {
     state.case = {
       ...data.data
     }
+  },
+  updateCase (state, payload) {
+    state.case = payload.data
   }
 }

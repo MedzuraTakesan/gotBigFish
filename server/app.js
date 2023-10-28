@@ -68,6 +68,12 @@ const addMarketData = (data) => {
         key: data[CASE_NAME],
         data: caseDataForShort
     })
+
+
+    socket.sendFullUpdate(data.market, data[CASE_NAME], {
+        key: data[CASE_NAME],
+        data: markets_data[data.market][PROPERTIES.CASES][data[CASE_NAME]]
+    })
 }
 
 const saveData = (data) => {

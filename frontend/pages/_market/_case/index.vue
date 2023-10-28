@@ -26,7 +26,8 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from "vuex";
+import { mapActions, mapGetters, mapMutations } from "vuex";
+import { socket } from "@/plugins/socket";
 
 export default {
   name: "index",
@@ -42,6 +43,9 @@ export default {
     rows() {
       return this.tableData?.length
     },
+    channelName() {
+      return `full-update-case-${this.$route.params?.market}-${this.$route.params?.case}`
+    },
     medianTryValue() {
       const spendToTry = this.getCase?.amountOfTrySpentOnCases || [1]
       const spend = spendToTry?.reduce((accumulator, currentValue) => accumulator + currentValue) || 0
@@ -54,7 +58,7 @@ export default {
     },
     tableData() {
       const tryCases = this.getCase?.amountOfTrySpentOnCases?.reverse()
-      return this.getCase?.amountOfMoneySpentToTryCases.reverse().reduce((items, item, index) => {
+      return this.getCase?.amountOfMoneySpentToTryCases?.reverse().reduce((items, item, index) => {
         const tryCounts = tryCases[index]
         const spend = item
 
@@ -72,7 +76,7 @@ export default {
         })
 
         return items
-      },[])
+      },[]) || []
     },
   },
   created() {
@@ -81,8 +85,29 @@ export default {
       caseName: this.$route.params?.case
     })
   },
+  mounted() {
+    if (process.client) {
+      setTimeout(() => {
+        socket.emit('subscribe', {
+          channel: this.channelName
+        })
+      }, 500)
+
+
+      socket.on(this.channelName, this.updateCase)
+    }
+  },
+  beforeRouteLeave(to, from, next) {
+    const channel  = `${this.channelName}`
+    socket.emit('unsubscribe', {
+      channel: channel
+    })
+    socket.off(channel, this.updateCase)
+    next()
+  },
   methods: {
     ...mapActions('settings', ['fetchCase']),
+    ...mapMutations('settings', ['updateCase']),
     getLink(key) {
       return `/${this.$route.params?.market}/${key}`
     }

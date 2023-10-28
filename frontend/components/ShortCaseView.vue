@@ -9,7 +9,7 @@
       <p>Не удачных кейсов: {{ item.data.badCases}}</p>
       <p>Выпало предметов на: {{ parseInt(item.data.amountOfMoneyPaidFromCases)}}</p>
       <p>Потрачено на кейсы: {{ item.data.amountOfMoneySpentOnCases}}</p>
-      <b-button variant="outline-danger" @click="$router.push(getLink(item.key))">
+      <b-button variant="outline-danger" @click="onClick">
         Подробнее
       </b-button>
     </b-card-body>
@@ -28,6 +28,10 @@ export default {
   methods: {
     getLink(key) {
       return `/${this.$route.params?.market}/${key}`
+    },
+    onClick(item) {
+      this.$emit('onAboutClick')
+      this.$router.push(this.getLink(this.item.key))
     }
   },
 }
