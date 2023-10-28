@@ -2,6 +2,15 @@ export default {
   setMarkets (state, data) {
     state.markets = data
   },
+  setMarketsCase (state, payload) {
+    const caseChanged = state.market.cases.find((item) => item.key === payload.key)
+
+    if (!caseChanged){
+      return
+    }
+
+    caseChanged.data = payload.data
+  },
   setStatus (state, data) {
     state.status = data
   },

@@ -2,6 +2,7 @@ const fs = require('fs');
 const { cloneDeep } = require('lodash')
 const { getAnalyticStatistic, getAnatyticsData } = require("./helpers/analytics");
 const { PROPERTIES, SUM_PROPERTIES, TRANSLATE_PROPERTIES } = require("./helpers/consts");
+const socket = require('./socket/index')
 const myCsGoShop = require('./markets/myCsGoShop')
 const topSkins = require('./markets/topSkins')
 const easyDrop = require('./markets/easyDrop')
@@ -59,6 +60,13 @@ const addMarketData = (data) => {
 
     SUM_PROPERTIES.forEach((property) => {
         markets_data[data.market][property] = oldData[property] + data[TRANSLATE_PROPERTIES[property]]
+    })
+
+    const caseDataForShort = getObjectWithoutIgnoreFields(markets_data[data.market][PROPERTIES.CASES][data[CASE_NAME]], true)
+
+    socket.sendShortUpdate(data.market, {
+        key: data[CASE_NAME],
+        data: caseDataForShort
     })
 }
 
@@ -214,6 +222,8 @@ function setToken(req, res) {
 
 const express = require('express');
 const app = express();
+const http = require('http');
+const server = http.createServer(app);
 
 app.get('/data-markets', getDataKeys);
 app.get('/markets', getMarketsData);
@@ -222,8 +232,10 @@ app.get('/case', getCaseData);
 app.get('/status', getStatuses);
 app.get('/set-token', setToken);
 
+socket.init(server)
 
 
-app.listen(3006, () => {
+server.listen(3006, () => {
     console.log('Server started on port 3000');
 });
+

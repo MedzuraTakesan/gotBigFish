@@ -38,10 +38,13 @@ export default {
 
   proxy: {
     '/api': {
-      target: "http://45.132.50.213:3006",
+      target: "http://localhost:3006",
       pathRewrite: {
         '^/api' : ""
       },
+    },
+    '/socket.io': {
+      target: "http://localhost:3006",
     },
   },
 
@@ -55,7 +58,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'bootstrap-vue/nuxt',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

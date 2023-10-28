@@ -19,7 +19,7 @@
           :total-rows="rows"
           :per-page="perPage"
           aria-controls="my-table"
-        ></b-pagination>
+        />
       </b-card-body>
     </b-card>
   </b-container>
