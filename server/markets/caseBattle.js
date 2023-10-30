@@ -56,8 +56,10 @@ const connect = () => {
             'Origin': 'https://case-battle.io',
             'Pragma': 'no-cache',
             'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits',
-            'Sec-Websocket-Key': 'iBdcSJDFGrwB8Kcdmqpyxg==',
+            'Sec-Websocket-Key': 'ummBlIh2OLnBn21+vPGZ1w==',
+            'Sec-Websocket-Version': '13',
             'Cookie': cookie,
+            'Upgrade': 'websocket',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
         });
     }, 5000)
