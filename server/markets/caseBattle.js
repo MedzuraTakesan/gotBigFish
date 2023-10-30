@@ -46,6 +46,12 @@ const parseData = (data) => {
     data.v.forEach(parseItem)
 }
 
+const connect = () => {
+    setTimeout(() => {
+        ws.connect('wss://case-battle.io/ws', 'echo-protocol', null );
+    }, 5000)
+}
+
 const init = (handler) => {
     if (connectionWs && connectionWs.state === 'closed') {
         connectionWs = null
@@ -54,6 +60,7 @@ const init = (handler) => {
 
     ws.on('connectFailed', function(error, cs) {
         console.log(`${MARKETS.CASE_BATTLE} error`)
+        connect()
     });
 
     ws.on('connect', (connection)=> {
@@ -61,10 +68,12 @@ const init = (handler) => {
         console.log(`${MARKETS.CASE_BATTLE} connected`)
         connection.on('error', function(error) {
             console.log(`${MARKETS.CASE_BATTLE} error`)
+            connect()
 
         });
         connection.on('close', function() {
             console.log(`${MARKETS.CASE_BATTLE} close`)
+            connect()
 
         });
         connection.on('message', function(msg) {
@@ -93,7 +102,7 @@ const init = (handler) => {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
     }
 
-    ws.connect('wss://case-battle.io/ws', 'echo-protocol', null );
+    connect()
 }
 
 const setCookie = (newCookie) => {
