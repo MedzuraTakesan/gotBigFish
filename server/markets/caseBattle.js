@@ -4,7 +4,7 @@ const { cases } = require("./caseBattleCases");
 let handleMessage = null
 const ignoreCases = ['upgrade']
 const ignoreId = new Set()
-let cookie = 'cf_clearance=hy51Ju.yXqf3GlXurO.C6MdDn_5EoVLuYMPZSW0LNLo-1698653410-0-1-55c801b8.10c0e556.2c95e58-160.0.0; _sessionIdentity=7ocbjhoda5s8uuum8bp4boo4ac; _csrfParam=68f7539bb95f2599ef5f59334194be413c16441074e785772f0d19d3532e2a82a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrfParam%22%3Bi%3A1%3Bs%3A32%3A%22wcazZ3-ONBlkG_Num5AGoiNV26Pj8UyP%22%3B%7D'
+let cookie = 'cf_clearance=BngWVhjWYJjv1zuW.FtZxqnTKZAKT7BDj7A.0dmdlKM-1698653555-0-1-55c801b8.8c437b25.2c95e58-160.0.0; supportOnlineTalkID=nTFMrrXuXRGnV7iwopaG6yzcb6zCaHfp; _sessionIdentity=3i12r2hh39qagbph14kr92jmna; _csrfParam=c8c519fdac4226a367043351dda2efe4e3ff7f4bc1d5aed8380e02915d9af000a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrfParam%22%3Bi%3A1%3Bs%3A32%3A%22OjGs-cOuSQRGlffJSwDb4-Ybd8XSA2cX%22%3B%7D'
 
 let ws = new WebSocketClient('');
 let connectionWs = null
