@@ -6,7 +6,7 @@ const socket = require('./socket/index')
 const myCsGoShop = require('./markets/myCsGoShop')
 const topSkins = require('./markets/topSkins')
 const easyDrop = require('./markets/easyDrop')
-const caseBattle = require('./markets/caseBattle')
+// const caseBattle = require('./markets/caseBattle')
 const { CASE_NAME, MARKETS } = require("./markets/constants");
 const markets_data = JSON.parse(fs.readFileSync('data.json'));
 
@@ -156,7 +156,7 @@ const statisticLogger = () => {
 myCsGoShop.init(handler)
 topSkins.init(handler)
 easyDrop.init(handler)
-caseBattle.init(handler)
+// caseBattle.init(handler)
 
 setInterval(() => {
     statisticLogger()
@@ -219,7 +219,7 @@ function getStatuses(req, res) {
     res.send({
         [MARKETS.MY_CSGO_SHOP]: myCsGoShop.getStatus(),
         [MARKETS.EASY_DROP]: easyDrop.getStatus(),
-        [MARKETS.CASE_BATTLE]: caseBattle.getStatus(),
+        // [MARKETS.CASE_BATTLE]: caseBattle.getStatus(),
         [MARKETS.TOP_SKINS]: topSkins.getStatus(),
     })
 }
