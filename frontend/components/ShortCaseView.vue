@@ -1,7 +1,15 @@
 <template>
   <b-card>
     <b-card-header>
-      {{ item.key }}
+      <b-row align-content="center">
+        <b-col cols="8">
+          <span> {{ item.key }}</span>
+          <span class="short-case-view__header--percent"> {{ percentToSuccess }}</span>
+        </b-col>
+        <b-col cols="4">
+          <b-button @click="onFavoriteClick"> {{ favoriteString }} </b-button>
+        </b-col>
+      </b-row>
     </b-card-header>
     <b-card-body>
       <p>Открытий кейса: {{ item.data.numberOfOpenCases}}</p>
@@ -17,17 +25,47 @@
 </template>
 
 <script>
+import { mapGetters, mapMutations } from "vuex";
+
 export default {
   name: "ShortCaseView",
   props: {
     item: {
       type: Object,
       default: () => ({})
+    },
+    market: {
+      type: String,
+      default: ''
+    }
+  },
+  computed: {
+    ...mapGetters('settings', ['getFavoriteCases']),
+    percentToSuccess () {
+      return `+${this.item.data.percentToSuccessOpen}%`
+    },
+    favoriteKey () {
+      return`${this.market}-${this.item.key}`
+    },
+    isFavorite () {
+      return this.getFavoriteCases.includes(this.favoriteKey)
+    },
+    favoriteString () {
+      return this.isFavorite ? 'Отписаться' : 'Подписаться'
     }
   },
   methods: {
+    ...mapMutations('settings', ['addFavoriteCase', 'removeFavoriteCase']),
     getLink(key) {
-      return `/${this.$route.params?.market}/${key}`
+      return `/${this.market}/${key}`
+    },
+    onFavoriteClick() {
+      if (!this.isFavorite) {
+        this.addFavoriteCase(this.favoriteKey)
+        return
+      }
+
+      this.removeFavoriteCase(this.favoriteKey)
     },
     onClick(item) {
       this.$emit('onAboutClick')
@@ -37,6 +75,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+.short-case-view__header--percent {
+  color: #1b5b16;
+  font-weight: bold;
+}
 </style>

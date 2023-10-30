@@ -2,6 +2,10 @@ const { Server } = require("socket.io");
 const market = require('./market')
 
 const subscribeToChannel = (socket, channel) => {
+    if (channel.indexOf(market.favoriteCaseUpdateChannel) > -1) {
+        market.subscribeToUpdate(socket, channel)
+        return
+    }
     if (channel.indexOf(market.shortCaseUpdateChannel) > -1) {
         market.subscribeToUpdate(socket, channel)
         return
@@ -13,6 +17,10 @@ const subscribeToChannel = (socket, channel) => {
 }
 
 const unSubscribeToChannel = (socket, channel) => {
+    if (channel.indexOf(market.favoriteCaseUpdateChannel) > -1) {
+        market.unSubscribeToUpdate(socket, channel)
+        return
+    }
     if (channel.indexOf(market.shortCaseUpdateChannel) > -1) {
         market.unSubscribeToUpdate(socket, channel)
         return
@@ -50,5 +58,6 @@ const init = (server) => {
 module.exports = {
     init,
     sendShortUpdate: market.sendShortUpdate,
-    sendFullUpdate: market.sendFullUpdate
+    sendFullUpdate: market.sendFullUpdate,
+    sendFavoriteUpdate: market.sendFavoriteUpdate
 }

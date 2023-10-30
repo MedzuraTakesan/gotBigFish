@@ -2,7 +2,11 @@
   <b-container v-if="getCase">
     <b-card>
       <b-card-header>
-        <h3>{{ caseName }}</h3>
+        <b-row>
+          <b-col>
+            <h3>{{ caseName }} {{ percentToSuccess }}</h3>
+          </b-col>
+        </b-row>
       </b-card-header>
       <b-card-body>
         <p>Открытий кейса: {{ getCase.numberOfOpenCases}}</p>
@@ -14,12 +18,14 @@
         <p>Кейсов давших х5: {{ getCase.X_5}}</p>
         <p>Кейсов давших х10: {{ getCase.X_10}}</p>
         <b-table v-if="tableData" :items="tableData" :per-page="perPage" :current-page="currentPage"/>
-        <b-pagination
-          v-model="currentPage"
-          :total-rows="rows"
-          :per-page="perPage"
-          aria-controls="my-table"
-        />
+        <div class="case__pagination">
+          <b-pagination
+            v-model="currentPage"
+            :total-rows="rows"
+            :per-page="perPage"
+            aria-controls="my-table"
+          />
+        </div>
       </b-card-body>
     </b-card>
   </b-container>
@@ -56,9 +62,12 @@ export default {
       const spend = moneySpend?.reduce((accumulator, currentValue) => accumulator + currentValue) || 0
       return Math.ceil(spend / moneySpend.length)
     },
+    percentToSuccess () {
+      return `+${this.getCase.percentToSuccessOpen}% к успешному открытию`
+    },
     tableData() {
-      const tryCases = this.getCase?.amountOfTrySpentOnCases?.reverse()
-      return this.getCase?.amountOfMoneySpentToTryCases?.reverse().reduce((items, item, index) => {
+      const tryCases = this.getCase?.amountOfTrySpentOnCases || []
+      return this.getCase?.amountOfMoneySpentToTryCases?.reduce((items, item, index) => {
         const tryCounts = tryCases[index]
         const spend = item
 
@@ -87,11 +96,9 @@ export default {
   },
   mounted() {
     if (process.client) {
-      setTimeout(() => {
-        socket.emit('subscribe', {
-          channel: this.channelName
-        })
-      }, 500)
+      socket.emit('subscribe', {
+        channel: this.channelName
+      })
 
 
       socket.on(this.channelName, this.updateCase)
@@ -115,6 +122,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+.case__pagination {
+  display: flex;
+  justify-content: center;
+}
 </style>

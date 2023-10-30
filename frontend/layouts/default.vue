@@ -14,12 +14,13 @@
     <client-only>
       <admin-panel/>
     </client-only>
+    <FavoriteCases/>
     <nuxt/>
   </div>
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapActions, mapGetters, mapMutations } from 'vuex'
 
 export default {
   name: "default",
@@ -39,12 +40,17 @@ export default {
   created() {
     this.fetchMarkets()
     this.fetchStatus()
-    setInterval(() => {
-      this.fetchStatus()
-    }, 5000)
+
+    if (process.client) {
+      this.loadFavoritesCases()
+      setInterval(() => {
+        this.fetchStatus()
+      }, 5000)
+    }
   },
   methods: {
     ...mapActions('settings', ['fetchMarkets', 'fetchStatus']),
+    ...mapMutations('settings', ['loadFavoritesCases']),
     getVariant(link) {
       const status = this.getStatus?.[link]
       if (status === 'open' || status === 1) {

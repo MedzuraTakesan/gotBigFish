@@ -1,4 +1,6 @@
-const { TRANSLATE_PROPERTIES, PROPERTIES, ANALYTICS_DATA, ANALYTICS_ARRAY_DATA } = require('./consts')
+const { TRANSLATE_PROPERTIES, PROPERTIES, ANALYTICS_DATA, ANALYTICS_ARRAY_DATA, ANALYTICS_AFTER_ARRAY_DATA } = require('./consts')
+
+const MAX_INDEX_IN_ARRAY = 499
 
 const getPaidData = (data) => {
     const paidMarket = data[TRANSLATE_PROPERTIES[PROPERTIES.AMOUNT_OF_MONEY_PAID_FROM_CASES]]
@@ -39,12 +41,12 @@ const getAnalyticData = (data, property) => {
 const getDataForTry = (data, paidMarket, paidUser) => {
     const isGood = paidMarket > paidUser
     if (isGood) {
-        return [...data, 0]
+        return [0, ...data.slice(0, MAX_INDEX_IN_ARRAY)]
     }
 
-    const clonedData = [...data]
-    const lastAmountOfTry = clonedData[clonedData.length - 1]
-    clonedData[data.length - 1] = lastAmountOfTry + 1
+    const clonedData = [...data.slice(0, MAX_INDEX_IN_ARRAY)]
+    const lastAmountOfTry = clonedData[0]
+    clonedData[0] = lastAmountOfTry + 1
 
     return  clonedData
 }
@@ -52,18 +54,33 @@ const getDataForTry = (data, paidMarket, paidUser) => {
 const getDataMoneyForTry = (data, paidMarket, paidUser) => {
     const isGood = paidMarket > paidUser
     if (isGood) {
-        return [...data, 0]
+        return [0, ...data.slice(0, MAX_INDEX_IN_ARRAY)]
     }
 
-    const clonedData = [...data]
-    const lastAmountOfTry = clonedData[clonedData.length - 1]
-    clonedData[data.length - 1] = parseInt(lastAmountOfTry + (paidUser - paidMarket))
+    const clonedData = [...data.slice(0, MAX_INDEX_IN_ARRAY)]
+    const lastAmountOfTry = clonedData[0]
+    clonedData[0] = parseInt(lastAmountOfTry + (paidUser - paidMarket))
 
     return  clonedData
 }
 
-const getAnalyticDataWithArray = (oldData = [0], newData, property) => {
+const getPercentToSuccess = (tryCounts, money, averageTryCount, averageMoney) => {
+    const tryOnePercent = averageTryCount / 50
+    const moneyOnePercent = averageMoney / 50
+
+    return Math.ceil((tryCounts / tryOnePercent) + (money / moneyOnePercent))
+}
+
+const getAnalyticDataWithArray = (oldData = [0], newData, property, updatedData) => {
     const { paidMarket, paidUser } = getPaidData(newData)
+
+    if (property === PROPERTIES.AVERAGE_OF_TRY) {
+        return getDataForAverageValue(updatedData[PROPERTIES.AMOUNT_OF_TRY_SPENT_CASES])
+    }
+
+    if (property === PROPERTIES.AVERAGE_OF_MONEY) {
+        return getDataForAverageValue(updatedData[PROPERTIES.AMOUNT_OF_MONEY_SPENT_TO_TRY_CASES])
+    }
 
     if (property === PROPERTIES.AMOUNT_OF_TRY_SPENT_CASES) {
         return getDataForTry(oldData, paidMarket, paidUser)
@@ -76,6 +93,22 @@ const getAnalyticDataWithArray = (oldData = [0], newData, property) => {
     return []
 }
 
+const getAnalyticDataAfterArray = (oldData = 0, newData, property, updatedData) => {
+    if (property === PROPERTIES.PERCENT_TO_SUCCESS_OPEN) {
+        return getPercentToSuccess(
+            updatedData[PROPERTIES.AMOUNT_OF_TRY_SPENT_CASES][0],
+            updatedData[PROPERTIES.AMOUNT_OF_MONEY_SPENT_TO_TRY_CASES][0],
+            updatedData[PROPERTIES.AVERAGE_OF_TRY],
+            updatedData[PROPERTIES.AVERAGE_OF_MONEY],
+            )
+    }
+}
+
+const getDataForAverageValue = (array) => {
+    const spend = array?.reduce((accumulator, currentValue) => accumulator + currentValue) || 0
+    return Math.ceil(spend / array.length)
+}
+
 const getAnatyticsData = (oldData = {}, newData) => {
     const updatedData = {}
 
@@ -84,7 +117,10 @@ const getAnatyticsData = (oldData = {}, newData) => {
     })
 
     ANALYTICS_ARRAY_DATA.forEach((property) => {
-        updatedData[property] = getAnalyticDataWithArray(oldData[property], newData, property)
+        updatedData[property] = getAnalyticDataWithArray(oldData[property], newData, property, updatedData)
+    })
+    ANALYTICS_AFTER_ARRAY_DATA.forEach((property) => {
+        updatedData[property] = getAnalyticDataAfterArray(oldData[property], newData, property, updatedData)
     })
 
     return updatedData

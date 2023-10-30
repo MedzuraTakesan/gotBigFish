@@ -12,6 +12,12 @@ const PROPERTIES = {
     AMOUNT_OF_TRY_SPENT_CASES: 'amountOfTrySpentOnCases',
     // Количество денег на которое ушли в минус пользователи при попытки выбить прибыльный кейс
     AMOUNT_OF_MONEY_SPENT_TO_TRY_CASES: 'amountOfMoneySpentToTryCases',
+    // Среднее число попыток
+    AVERAGE_OF_TRY: 'avarageOfTry',
+    // Среднее число потраченных денег на удачную попытку
+    AVERAGE_OF_MONEY: 'avarageOfMoney',
+    // Процент успешного открытия
+    PERCENT_TO_SUCCESS_OPEN: 'percentToSuccessOpen',
     // Количество кейсов которые принесли прибыль
     GOOD_CASES: 'goodCases',
     // Количество кейсов которые принесли убыток
@@ -41,7 +47,13 @@ const ANALYTICS_DATA = [
 
 const ANALYTICS_ARRAY_DATA = [
     PROPERTIES.AMOUNT_OF_TRY_SPENT_CASES,
-    PROPERTIES.AMOUNT_OF_MONEY_SPENT_TO_TRY_CASES
+    PROPERTIES.AMOUNT_OF_MONEY_SPENT_TO_TRY_CASES,
+    PROPERTIES.AVERAGE_OF_TRY,
+    PROPERTIES.AVERAGE_OF_MONEY
+]
+
+const ANALYTICS_AFTER_ARRAY_DATA = [
+    PROPERTIES.PERCENT_TO_SUCCESS_OPEN
 ]
 
 const TRANSLATE_PROPERTIES = {
@@ -52,6 +64,7 @@ const TRANSLATE_PROPERTIES = {
 module.exports = {
     ANALYTICS_DATA,
     ANALYTICS_ARRAY_DATA,
+    ANALYTICS_AFTER_ARRAY_DATA,
     TRANSLATE_PROPERTIES,
     PROPERTIES,
     SUM_PROPERTIES

@@ -1,6 +1,7 @@
 <template>
-  <b-container>
+  <b-container class="mt-5">
     <b-row v-if="getMarket">
+      <h3>Информация по маркету {{ $route?.params?.market }}</h3>
       <p>Открытий кейса: {{ getMarket.numberOfOpenCases}}</p>
       <p>Удачных кейсов: {{ getMarket.goodCases}}</p>
       <p>Не удачных кейсов: {{ getMarket.badCases}}</p>
@@ -23,15 +24,18 @@
       >
         <short-case-view
           :item="item"
+          :market="$route?.params?.market"
           @onAboutClick="unSubscribeUpdates"
         />
       </b-col>
-      <b-pagination
-        v-model="currentPage"
-        :total-rows="cases.length"
-        :per-page="perPage"
-        aria-controls="my-table"
-      />
+      <div class="market__pagination">
+        <b-pagination
+          v-model="currentPage"
+          :total-rows="cases.length"
+          :per-page="perPage"
+          aria-controls="my-table"
+        />
+      </div>
     </b-row>
   </b-container>
 </template>
@@ -112,11 +116,9 @@ export default {
   },
   mounted() {
     if (process.client) {
-      setTimeout(() => {
-        socket.emit('subscribe', {
-          channel: this.channelName
-        })
-      }, 5000)
+      socket.emit('subscribe', {
+        channel: this.channelName
+      })
 
 
       socket.on(this.channelName, this.setMarketsCase)
@@ -174,6 +176,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss">
+.market__pagination {
+  display: flex;
+  justify-content: center;
+}
 </style>

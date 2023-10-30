@@ -1,5 +1,6 @@
 const shortCaseUpdateChannel = 'short-update-case'
 const fullCaseUpdateChannel = 'full-update-case'
+const favoriteCaseUpdateChannel = 'favorite-update-case'
 let io = null
 
 
@@ -40,14 +41,29 @@ const sendFullUpdate = (market, caseName, data) => {
     io.to(channel).emit(channel, data)
 }
 
+const sendFavoriteUpdate = (market, caseName, data) => {
+    if (!io) {
+        return
+    }
+
+    const channel = `${favoriteCaseUpdateChannel}-${market}-${caseName}`
+
+    io.to(channel).emit(channel, {
+        favoriteName: `${market}-${caseName}`,
+        ...data
+    })
+}
+
 
 
 module.exports = {
     fullCaseUpdateChannel,
+    favoriteCaseUpdateChannel,
     shortCaseUpdateChannel,
     setIo,
     subscribeToUpdate,
     unSubscribeToUpdate,
+    sendFavoriteUpdate,
     sendFullUpdate,
     sendShortUpdate
 }
