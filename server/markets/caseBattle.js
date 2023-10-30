@@ -50,7 +50,7 @@ const connect = () => {
     setTimeout(() => {
         ws.connect('wss://case-battle.io/ws', 'echo-protocol', null ,{
             'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits',
-            'Sec-Websocket-Key': 'RpvMraaSyMEOQj5F1pYHaA==',
+            'Sec-Websocket-Key': 'BdEVb4iMaratkLiWiQXh1w==',
             'Cookie': cookie,
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
         });
