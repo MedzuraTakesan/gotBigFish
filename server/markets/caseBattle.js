@@ -53,7 +53,11 @@ const init = (handler) => {
     handleMessage = handler
 
     ws.on('connectFailed', function(error) {
-        console.log(`${MARKETS.CASE_BATTLE} error`)
+        setTimeout(() => {
+            console.log(`${MARKETS.CASE_BATTLE} error`)
+            isClosed = true
+            init(handler)
+        }, 5000);
     });
 
     ws.on('connect', (connection)=> {
