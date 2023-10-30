@@ -104,6 +104,7 @@ const init = (handler) => {
 }
 
 const setCookie = (newCookie) => {
+    console.log(newCookie)
     cookie = newCookie
 }
 
