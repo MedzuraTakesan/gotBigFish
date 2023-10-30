@@ -4,7 +4,7 @@ const { cases } = require("./caseBattleCases");
 let handleMessage = null
 const ignoreCases = ['upgrade']
 const ignoreId = new Set()
-let cookie = 'supportOnlineTalkID=x7twcgGB57rgkFtPhgZ5KoTdvQHcM4o8; _userIdentity=8f023524fc0bea306608bb981c482863a58717035dccc2d5dd271e9822c69433a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_userIdentity%22%3Bi%3A1%3Bs%3A52%3A%22%5B1627897%2C%22voI1Y8L-ZoDJ3zgUu9gx37fPdQ1QhfI3%22%2C2592000%5D%22%3B%7D; _csrfParam=0c010cf7885ff6af237d7ca4eb1abe25d9dd768acfe3ab3ae181b053cfa79237a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrfParam%22%3Bi%3A1%3Bs%3A32%3A%22UefyWgC4e_WQ72pixO6IWUAHDGGUweFQ%22%3B%7D; hideRogueAlert=true; cf_clearance=_bLwhjO3q4g2zPGt40FGNDGAjhm6EHI4DIKUrv11sqE-1698650858-0-1-55c801b8.ba3bb3b.2c95e58-250.0.0; _sessionIdentity=ktbfgpqgf12ol5r2rg44ttmgii'
+let cookie = 'cf_clearance=hy51Ju.yXqf3GlXurO.C6MdDn_5EoVLuYMPZSW0LNLo-1698653410-0-1-55c801b8.10c0e556.2c95e58-160.0.0; _sessionIdentity=7ocbjhoda5s8uuum8bp4boo4ac; _csrfParam=68f7539bb95f2599ef5f59334194be413c16441074e785772f0d19d3532e2a82a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrfParam%22%3Bi%3A1%3Bs%3A32%3A%22wcazZ3-ONBlkG_Num5AGoiNV26Pj8UyP%22%3B%7D'
 
 let ws = new WebSocketClient('');
 let connectionWs = null
@@ -48,7 +48,12 @@ const parseData = (data) => {
 
 const connect = () => {
     setTimeout(() => {
-        ws.connect('wss://case-battle.io/ws', 'echo-protocol', null );
+        ws.connect('wss://case-battle.io/ws', 'echo-protocol', null ,{
+            'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits',
+            'Sec-Websocket-Key': 'RpvMraaSyMEOQj5F1pYHaA==',
+            'Cookie': cookie,
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
+        });
     }, 5000)
 }
 
@@ -95,18 +100,11 @@ const init = (handler) => {
         sendNumber();
     })
 
-    ws.config.tlsOptions.headers = {
-        'Sec-Websocket-Extensions': 'permessage-deflate; client_max_window_bits',
-        'Sec-Websocket-Key': 'RpvMraaSyMEOQj5F1pYHaA==',
-        'Cookie': cookie,
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'
-    }
-
     connect()
 }
 
 const setCookie = (newCookie) => {
-    ws.config.tlsOptions.headers['Cookie'] = newCookie
+    cookie = newCookie
 }
 
 const getStatus = () => {
