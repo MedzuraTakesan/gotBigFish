@@ -65,6 +65,7 @@ const init = (handler) => {
 
     ws.on('connectFailed', function(error, cs) {
         console.log(`${MARKETS.CASE_BATTLE} error`)
+        console.log(error)
         connect()
     });
 
