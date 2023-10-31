@@ -142,22 +142,22 @@ const cases = {
     'Хромированный кейс #2': 75,
     'Хромированный кейс': 79,
 }
-
-let string = 'const cases = { \n'
-
-document.querySelectorAll('#caseList > a').forEach((elem) => {
-    const name = elem.querySelector('.title > h3').textContent
-    const priceElem = elem.querySelector('.price div')
-    if (!priceElem?.innerText) { return }
-    const price = parseInt(elem.querySelector('.price div').innerText)
-    if (cases[name]) {
-        return;
-    }
-    string = string + `    '${name}': ${price},\n`
-})
-string = string + `}`
-
-console.log(string)
+//
+// let string = 'const cases = { \n'
+//
+// document.querySelectorAll('#caseList > a').forEach((elem) => {
+//     const name = elem.querySelector('.title > h3').textContent
+//     const priceElem = elem.querySelector('.price div')
+//     if (!priceElem?.innerText) { return }
+//     const price = parseInt(elem.querySelector('.price div').innerText)
+//     if (cases[name]) {
+//         return;
+//     }
+//     string = string + `    '${name}': ${price},\n`
+// })
+// string = string + `}`
+//
+// console.log(string)
 
 
 module.exports = {
