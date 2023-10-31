@@ -8,6 +8,21 @@ const cases = {
     'Гейл': 125,
     'Уэйд': 195,
     'Эмбер': 355,
+    'Леший': 35,
+    'Водяной': 155,
+    'Баба Яга': 255,
+    'Кощей': 355,
+    'Змей Горыныч': 1555,
+    'Франкенштейн': 35,
+    'Ведьма': 45,
+    'Оборотень': 65,
+    'Призрак': 95,
+    'Хэллоуин 2021': 125,
+    'Хэллоуин 2020': 75,
+    'Скелет': 105,
+    'Мумия': 135,
+    'Зомби': 165,
+    'Вампиры': 195,
     'Элементарно': 855,
     'Робот Васко': 49,
     'Созвездие': 89,
@@ -127,6 +142,22 @@ const cases = {
     'Хромированный кейс #2': 75,
     'Хромированный кейс': 79,
 }
+
+let string = 'const cases = { \n'
+
+document.querySelectorAll('#caseList > a').forEach((elem) => {
+    const name = elem.querySelector('.title > h3').textContent
+    const priceElem = elem.querySelector('.price div')
+    if (!priceElem?.innerText) { return }
+    const price = parseInt(elem.querySelector('.price div').innerText)
+    if (cases[name]) {
+        return;
+    }
+    string = string + `    '${name}': ${price},\n`
+})
+string = string + `}`
+
+console.log(string)
 
 
 module.exports = {
